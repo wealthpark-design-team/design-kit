@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "ja" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="icon" href="{{ '/assets/logo/wealthpark-symbol.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="{{ '/web/site.css' | relative_url }}">
+  <script defer src="{{ '/web/site.js' | relative_url }}"></script>
+</head>
+<body>
+  <header class="dk-header">
+    <div class="container-lg px-3 dk-header__inner">
+      <a class="dk-header__brand" href="{{ '/' | relative_url }}"><img src="{{ '/assets/logo/wealthpark-logo.svg' | relative_url }}" alt="WealthPark"></a>
+      <span class="dk-header__title">Design Kit</span>
+      <a class="dk-header__link" href="https://github.com/wealthpark-design-team/design-kit">GitHub</a>
+    </div>
+  </header>
+  <main class="container-lg px-3 my-5 markdown-body">
+    {{ content }}
+  </main>
+</body>
+</html>

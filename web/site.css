@@ -1,0 +1,24 @@
+/* Presentation layer for the published page only. Not part of the kit's content. */
+.dk-header { border-bottom: 1px solid #eeeeee; background: #ffffff; }
+.dk-header__inner { display: flex; align-items: center; gap: 12px; height: 56px; }
+.dk-header__brand img { height: 22px; display: block; }
+.dk-header__title { color: #1a1a1a; font-weight: 600; }
+.dk-header__link { margin-left: auto; font-size: 14px; }
+
+.markdown-body table td { vertical-align: top; }
+.markdown-body blockquote { position: relative; padding-right: 130px; }
+
+.dk-thumbs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.dk-thumb { display: inline-flex; align-items: center; justify-content: center; padding: 6px 10px; border: 1px solid #eeeeee; border-radius: 4px; background: #ffffff; }
+.dk-thumb img { display: block; height: 40px; width: auto; max-width: 220px; }
+.dk-thumb--shot img { height: 80px; max-width: 240px; }
+.dk-thumb--dark { background: #1a1a1a; border-color: #1a1a1a; }
+
+.dk-swatch { display: inline-block; width: 0.95em; height: 0.95em; margin-right: 0.35em; border: 1px solid #cccccc; border-radius: 3px; vertical-align: -0.12em; }
+
+.dk-copy { position: absolute; top: 10px; right: 10px; height: 28px; padding: 0 12px; border: 1px solid #cccccc; border-radius: 999px; background: #ffffff; color: #1a1a1a; font-size: 12px; cursor: pointer; }
+.dk-copy:hover { border-color: #1a1a1a; }
+@media (max-width: 600px) {
+  .markdown-body blockquote { padding-right: 16px; padding-bottom: 40px; }
+  .dk-copy { top: auto; bottom: 8px; }
+}

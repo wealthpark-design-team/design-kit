@@ -35,6 +35,7 @@ assets/tokens.json 同じ値の JSON
 assets/starter/   トークンとロゴを組み込んだ最小の HTML テンプレート
 assets/screenshots/ キービジュアルと製品画面
 _config.yml       GitHub Pages（Jekyll）の設定
+_layouts/ web/    公開ページの見た目だけ（ロゴのサムネイル、色見本、コピーボタン）。キットの内容ではなく、SKILL.md のテキストには影響しない
 ```
 
 ## 更新のしかた
