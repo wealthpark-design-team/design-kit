@@ -1,0 +1,58 @@
+/* WealthPark Design Kit - design tokens
+   Source: https://github.com/wealthpark-design-team/design-kit
+   Usage: <link rel="stylesheet" href="https://wealthpark-design-team.github.io/design-kit/assets/tokens.css"> */
+:root {
+  /* Color: base */
+  --wp-color-black: #1A1A1A;
+  --wp-color-white: #FFFFFF;
+  --wp-color-gray: #333333;
+  --wp-color-text-muted: #666666;
+  --wp-color-bg: #F5F5F5;
+  --wp-color-border: #EEEEEE;
+  --wp-color-border-strong: #CCCCCC;
+
+  /* Color: category accents (use exactly one per deliverable) */
+  --wp-color-accent-corporate: #B8A86F;
+  --wp-color-accent-business: #2E6CFF;
+  --wp-color-accent: var(--wp-color-accent-corporate);
+
+  /* Typography */
+  --wp-font-family-base: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', Meiryo, sans-serif;
+  --wp-font-family-hero: 'Noto Sans JP', var(--wp-font-family-base);
+  --wp-font-size-xs: 12px;
+  --wp-font-size-sm: 14px;
+  --wp-font-size-md: 16px;
+  --wp-font-size-lg: 18px;
+  --wp-font-size-xl: 22px;
+  --wp-font-size-2xl: 24px;
+  --wp-font-size-3xl: 30px;
+  --wp-font-size-4xl: 40px;
+  --wp-font-size-5xl: 50px;
+  --wp-font-size-6xl: 64px;
+  --wp-font-size-7xl: 72px;
+  --wp-line-height-body: 1.7;
+  --wp-line-height-heading: 1.25;
+  --wp-font-weight-regular: 400;
+  --wp-font-weight-bold: 700;
+
+  /* Spacing */
+  --wp-space-2xs: 4px;
+  --wp-space-xs: 8px;
+  --wp-space-sm: 12px;
+  --wp-space-md: 16px;
+  --wp-space-lg: 20px;
+  --wp-space-xl: 30px;
+  --wp-space-2xl: 40px;
+  --wp-space-3xl: 60px;
+  --wp-space-4xl: 80px;
+
+  /* Controls, borders, radius */
+  --wp-control-height: 40px;
+  --wp-control-height-lg: 50px;
+  --wp-border-width-regular: 1px;
+  --wp-border-width-strong: 2px;
+  --wp-radius-sm: 3px;
+  --wp-radius-md: 4px;
+  --wp-radius-lg: 12px;
+  --wp-radius-pill: 999px;
+}

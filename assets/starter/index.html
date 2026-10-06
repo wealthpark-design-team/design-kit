@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WealthPark Starter</title>
+<!-- 1. トークンを読み込む（ローカルにコピーした場合は ../tokens.css） -->
+<link rel="stylesheet" href="https://wealthpark-design-team.github.io/design-kit/assets/tokens.css">
+<style>
+  /* 2. カテゴリのアクセントを 1 つ選ぶ（既定はコーポレートの Gold） */
+  :root { --wp-color-accent: var(--wp-color-accent-corporate); }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: var(--wp-font-family-base); font-size: var(--wp-font-size-md); line-height: var(--wp-line-height-body); color: var(--wp-color-black); background: var(--wp-color-white); }
+  a { color: inherit; }
+  .container { max-width: 1040px; margin: 0 auto; padding: 0 var(--wp-space-lg); }
+
+  .header { border-bottom: var(--wp-border-width-regular) solid var(--wp-color-border); }
+  .header .container { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .header img { height: 24px; display: block; }  /* ロゴは必ず画像。文字で書かない */
+  .nav a { margin-left: var(--wp-space-lg); font-size: var(--wp-font-size-sm); text-decoration: none; }
+
+  .hero { padding: var(--wp-space-4xl) 0; }
+  .hero h1 { font-family: var(--wp-font-family-hero); font-size: var(--wp-font-size-5xl); line-height: var(--wp-line-height-heading); margin: 0 0 var(--wp-space-md); }
+  .hero p { font-size: var(--wp-font-size-lg); color: var(--wp-color-gray); max-width: 36em; margin: 0 0 var(--wp-space-xl); }
+
+  .btn { display: inline-block; height: var(--wp-control-height-lg); line-height: var(--wp-control-height-lg); padding: 0 var(--wp-space-xl); border-radius: var(--wp-radius-pill); font-weight: var(--wp-font-weight-bold); text-decoration: none; border: var(--wp-border-width-strong) solid var(--wp-color-black); }
+  .btn-primary { background: var(--wp-color-black); color: var(--wp-color-white); }
+  .btn-secondary { background: transparent; color: var(--wp-color-black); margin-left: var(--wp-space-sm); }
+
+  .section { padding: var(--wp-space-3xl) 0; background: var(--wp-color-bg); }
+  .section h2 { font-size: var(--wp-font-size-2xl); line-height: var(--wp-line-height-heading); margin: 0 0 var(--wp-space-xl); padding-left: var(--wp-space-sm); border-left: 4px solid var(--wp-color-accent); }
+  .cards { display: grid; gap: var(--wp-space-lg); grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .card { background: var(--wp-color-white); border: var(--wp-border-width-regular) solid var(--wp-color-border); border-radius: var(--wp-radius-lg); padding: var(--wp-space-xl); }
+  .card h3 { font-size: var(--wp-font-size-lg); margin: 0 0 var(--wp-space-xs); }
+  .card p { margin: 0; color: var(--wp-color-gray); font-size: var(--wp-font-size-sm); }
+
+  .footer { padding: var(--wp-space-2xl) 0; font-size: var(--wp-font-size-xs); color: var(--wp-color-text-muted); }
+  .footer img { height: 20px; vertical-align: middle; margin-right: var(--wp-space-sm); }
+</style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="https://wealth-park.com/"><img src="https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-logo.svg" alt="WealthPark"></a>
+      <nav class="nav"><a href="#">サービス</a><a href="#">会社概要</a><a href="#">お問い合わせ</a></nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>収益不動産の管理を、<br>アプリでもっと簡単に</h1>
+      <p>オーナーへの報告をアプリで届け、電話と郵送の手間を減らします。</p>
+      <a class="btn btn-primary" href="#">資料をダウンロード</a>
+      <a class="btn btn-secondary" href="#">お問い合わせ</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>できること</h2>
+      <div class="cards">
+        <div class="card"><h3>収支報告</h3><p>月次の収支をアプリで共有します。</p></div>
+        <div class="card"><h3>チャット</h3><p>オーナーとのやり取りを一か所にまとめます。</p></div>
+        <div class="card"><h3>書類の保管</h3><p>契約書や明細をいつでも確認できます。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <img src="https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-symbol.svg" alt="">© WealthPark Co., Ltd.
+    </div>
+  </footer>
+</body>
+</html>
