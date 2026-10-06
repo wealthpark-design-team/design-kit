@@ -5,8 +5,7 @@ description: "WealthPark（ウェルスパーク）のブランドに沿って�
 
 # WealthPark Design Kit
 
-WealthPark の制作物をブランドどおりに仕上げるための、人と AI の共通の参照先です。
-このページの URL を AI に渡すだけで使えます。インストールや設定は要りません。
+WealthParkの制作物をデザインルールに一致させるためのデザインキットです。資料やウェブページ、あるいはチラシやバナーなどを制作する際に、このURLをAIに参照させることで利用いただけます。インストールや設定などの事前準備は不要です。
 
 - このページ: https://wealthpark-design-team.github.io/design-kit/
 - ソース（編集・提案はこちら）: https://github.com/wealthpark-design-team/design-kit
@@ -124,4 +123,4 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 | https://wealthpark-design-team.github.io/design-kit/assets/tokens.css | CSS 変数 |
 | https://wealthpark-design-team.github.io/design-kit/assets/tokens.json | 同じ値の JSON |
 | https://wealthpark-design-team.github.io/design-kit/assets/starter/index.html | トークンとロゴを組み込んだ最小の HTML テンプレート |
-| https://wealthpark-design-team.github.io/design-kit/assets/screenshots/ | キービジュアル（wealthpark-keyvisual.png）、PC 画面（wealthpark-business-pc.png）、スマホ画面（wealthpark-owner-app-sp.png） |
+| https://wealthpark-design-team.github.io/design-kit/assets/screenshots/wealthpark-keyvisual.png<br>https://wealthpark-design-team.github.io/design-kit/assets/screenshots/wealthpark-business-pc.png<br>https://wealthpark-design-team.github.io/design-kit/assets/screenshots/wealthpark-owner-app-sp.png | キービジュアル、PC 画面（WealthPark Business）、スマホ画面（オーナーアプリ）の順 |
