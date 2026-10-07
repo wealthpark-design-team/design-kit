@@ -5,6 +5,8 @@ description: WealthPark のブランドに沿って制作するための、人�
 url: "https://wealthpark-design-team.github.io"
 baseurl: "/design-kit"
 lang: ja
+# The theme is kept only for its bundled plugins (jekyll-seo-tag). Its CSS is not used;
+# the page is styled by _layouts/default.html + web/site.css.
 theme: jekyll-theme-primer
 
 defaults:
