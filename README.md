@@ -28,12 +28,12 @@ git clone https://github.com/wealthpark-design-team/design-kit .claude/skills/we
 
 ```
 SKILL.md          本文。唯一のソース。公開ページはこのファイルを GitHub Pages が描画したもの
-references/       詳細（ロゴ規定、カラー、タイポグラフィ、トーン、会社情報）
+references/       詳細（ロゴ規定、ビジュアルの選び方、カラー、タイポグラフィ、トーン、会社情報）
 assets/logo/      ロゴ（SVG / PNG）と公式ロゴガイドライン PDF
 assets/tokens.css デザイントークン（CSS 変数）
 assets/tokens.json 同じ値の JSON
 assets/starter/   トークンとロゴを組み込んだ最小の HTML テンプレート
-assets/screenshots/ キービジュアルと製品画面
+assets/visuals/   キービジュアル、テクスチャ、製品画面（Web 用に縮小。原本は Drive）
 _config.yml       GitHub Pages（Jekyll）の設定
 _layouts/ web/    公開ページの見た目だけ（ロゴのサムネイル、色見本、コピーボタン）。キットの内容ではなく、SKILL.md のテキストには影響しない
 ```

@@ -50,12 +50,42 @@
       node.parentNode.replaceChild(frag, node);
     });
 
-    // 2. Inside tables: image links become tiles + file rows; classify tables for layout
+    // 2. Tables: visuals become a card grid; logo/file links become tiles + file rows
+    function buildCards(table) {
+      var grid = document.createElement('div'); grid.className = 'dk-cards';
+      table.querySelectorAll('tbody tr').forEach(function (tr) {
+        var tds = tr.querySelectorAll('td'); if (tds.length < 2) { return; }
+        var a = tds[0].querySelector('a'); if (!a) { return; }
+        var url = a.href;
+        var card = document.createElement('article'); card.className = 'dk-card';
+        var fig = document.createElement('a');
+        fig.className = 'dk-card__img' + (/\/texture-/.test(url) ? ' dk-card__img--cover' : '');
+        fig.href = url; fig.target = '_blank'; fig.rel = 'noopener';
+        var img = document.createElement('img'); img.src = url; img.alt = '';
+        fig.appendChild(img);
+        var body = document.createElement('div'); body.className = 'dk-card__body';
+        var row = document.createElement('div'); row.className = 'dk-file';
+        var name = document.createElement('a'); name.href = url; name.title = url; name.textContent = fileName(url);
+        row.appendChild(name); row.appendChild(copyButton(url, 'URL をコピー', 'コピーしました'));
+        var desc = document.createElement('p'); desc.className = 'dk-card__desc'; desc.textContent = tds[1].textContent.trim();
+        body.appendChild(row); body.appendChild(desc);
+        card.appendChild(fig); card.appendChild(body); grid.appendChild(card);
+      });
+      return grid;
+    }
+
     main.querySelectorAll('table').forEach(function (table) {
       var wrap = document.createElement('div'); wrap.className = 'dk-table-wrap';
       table.parentNode.insertBefore(wrap, table); wrap.appendChild(table);
-      var hasImages = false, hasHex = /#[0-9A-Fa-f]{6}\b/.test(table.textContent), hasRefs = false;
 
+      if (/\/assets\/visuals\//.test(table.innerHTML)) {
+        var grid = buildCards(table);
+        wrap.classList.add('dk-hidden');
+        wrap.parentNode.insertBefore(grid, wrap.nextSibling);
+        return;
+      }
+
+      var hasImages = false, hasHex = /#[0-9A-Fa-f]{6}\b/.test(table.textContent), hasRefs = false;
       table.querySelectorAll('td').forEach(function (td) {
         var links = Array.prototype.slice.call(td.querySelectorAll('a'));
         var images = links.filter(function (a) { return IMG_RE.test(a.href); });
@@ -67,7 +97,7 @@
           var url = a.href;
           var tile = document.createElement('a');
           tile.href = url; tile.target = '_blank'; tile.rel = 'noopener'; tile.title = fileName(url);
-          tile.className = 'dk-tile' + (/inverse/.test(url) ? ' dk-tile--dark' : '') + (/\/screenshots\//.test(url) ? ' dk-tile--shot' : '');
+          tile.className = 'dk-tile' + (/inverse/.test(url) ? ' dk-tile--dark' : '');
           var img = document.createElement('img'); img.src = url; img.alt = '';
           tile.appendChild(img); tiles.appendChild(tile);
 
@@ -78,7 +108,6 @@
         });
         td.insertBefore(tiles, td.firstChild);
       });
-
       if (hasImages) { table.classList.add('dk-logos'); }
       if (hasHex) { table.classList.add('dk-colors'); }
       if (hasRefs && !hasImages && !hasHex) { table.classList.add('dk-refs'); }

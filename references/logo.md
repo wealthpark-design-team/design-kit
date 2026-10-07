@@ -6,18 +6,30 @@
 
 | ファイル | 内容 | サイズ |
 |---|---|---|
-| assets/logo/wealthpark-logo.svg | コーポレートロゴ 横組み、黒 #000000 | viewBox 425×80 |
+| assets/logo/wealthpark-logo.svg | コーポレートロゴ 横組み、黒 #000000 | 425×80 |
 | assets/logo/wealthpark-logo.png | 同 PNG、透過 | 1200×226 |
-| assets/logo/wealthpark-logo-inverse.svg | 白版（暗い背景用） | viewBox 425×80 |
-| assets/logo/wealthpark-symbol.svg | シンボルのみ、黒 | viewBox 62×62 |
-| assets/logo/wealthpark-symbol-inverse.svg | シンボルのみ、白 | viewBox 62×62 |
-| assets/logo/wealthpark-business-logo.svg | WealthPark Business、黒 | viewBox 264×40 |
-| assets/logo/wealthpark-business-logo-inverse.svg | WealthPark Business、白 | viewBox 272×40 |
+| assets/logo/wealthpark-logo-inverse.svg | 白版（暗い背景用） | 425×80 |
+| assets/logo/wealthpark-logo-inverse.png | 白版 PNG、透過 | 1500×303 |
+| assets/logo/wealthpark-symbol.svg | シンボルのみ、黒 | 62×62 |
+| assets/logo/wealthpark-symbol-inverse.svg | シンボルのみ、白 | 62×62 |
+| assets/logo/wealthpark-business-logo.svg | WealthPark Business、黒 | 264×40 |
 | assets/logo/wealthpark-business-logo.png | 同 PNG、透過 | 1400×179 |
-| assets/logo/wealthpark-realestate-technologies-logo.png | WealthPark RealEstate Technologies、透過 | 1400×125 |
-| assets/logo/wealthpark-lab-logo.png | WealthPark Lab、透過 | 1000×162 |
+| assets/logo/wealthpark-business-logo-inverse.svg | WealthPark Business、白 | 272×40 |
+| assets/logo/wealthpark-business-logo-inverse.png | 同 PNG、透過 | 617×79 |
+| assets/logo/wealthpark-realestate-technologies-logo.svg | WealthPark RealEstate Technologies、黒（サービス名部分はグレー #ABABAB） | 469×44 |
+| assets/logo/wealthpark-realestate-technologies-logo.png | 同 PNG、透過 | 1400×125 |
+| assets/logo/wealthpark-realestate-technologies-logo-inverse.png | 白版 PNG、透過 | 1200×113 |
+| assets/logo/wealthpark-lab-logo.svg | WealthPark Lab、黒 | 285×52 |
+| assets/logo/wealthpark-lab-logo.png | 同 PNG、透過 | 1000×162 |
+| assets/logo/wealthpark-lab-logo-inverse.png | 白版 PNG、透過 | 1000×181 |
+| assets/logo/wealthpark-lab-symbol.png | WealthPark Lab のシンボルのみ、黒、透過 | 1000×922 |
+| assets/logo/wealthpark-ai-logo.svg | WealthPark AI、黒（「AI」はブルー〜パープルのグラデーション、星のマークつき） | 387×62 |
+| assets/logo/wealthpark-ai-logo.png | 同 PNG、透過 | 1200×195 |
+| assets/logo/wealthpark-ai-logo-inverse.png | 白版 PNG、透過（「AI」は白） | 2000×333 |
+| assets/logo/wealthpark-capital-logo.png | WealthPark Capital、黒（「Capital」はグレー）、透過 | 1000×141 |
+| assets/logo/wealthpark-capital-logo-inverse.png | 白版 PNG、透過 | 1000×141 |
 
-出どころ: PNG と PDF はコーポレートサイトのプレスキット（https://wealth-park.com/ja/presskit/ ）。SVG はコーポレートサイトのテーマで実際に使われているものを、ガイドラインの指定色（黒 #000000、白 #FFFFFF）に揃えたもの。Illustrator 形式（.ai）が必要なときはプレスキットからダウンロードする。
+出どころ: 正本はデザインチームの Google Drive「共有素材 / 001_Logo」（ai / pdf / png / svg）。PNG と白版、AI・RealEstate Technologies・Lab の SVG、Capital と Lab シンボルはそこから取った。Capital と AI の Illustrator データも Drive にある。コーポレートと Business の SVG はコーポレートサイトのテーマで使われているものを、ガイドラインの指定色（黒 #000000、白 #FFFFFF）に揃えたもので、形は Drive の正本と同じ。公式ロゴガイドライン PDF もプレスキット（https://wealth-park.com/ja/presskit/ ）と同じものをこのフォルダに置いている。Illustrator 形式（.ai）が必要なときは Drive かプレスキットから取る。
 
 ## 01. 構成
 
@@ -64,6 +76,7 @@
 
 - シンボル単体は、ファビコン、アプリアイコン、SNS アイコンなど横組みが収まらない小さな領域に限って使う
 - UI や文字の黒は #1A1A1A に統一しているが、ロゴは #000000 のまま使う。ロゴを #1A1A1A に塗り替えない
+- サブブランドのロゴに含まれる色（WealthPark AI の「AI」のグラデーション、Capital と RealEstate Technologies のグレー）はロゴの一部。黒に塗り替えたり、別の色にしたりしない。白版はそれぞれの inverse ファイルを使う
 - AI が画像を配置できない環境（文字だけの出力など）では、ロゴを文字で代用せず、ロゴなしで作り、ファイルの URL をユーザーに伝える
 
 ## 問い合わせ
