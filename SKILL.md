@@ -1,11 +1,11 @@
 ---
 name: wealthpark-design-kit
-description: "WealthPark（ウェルスパーク）のブランドに沿って資料・スライド・UI・Web・文章を作るためのデザインキット。ロゴ（SVG/PNG の URL）、カラー、フォント、トーン&マナー、会社とサービスの基本情報を含む。WealthPark 向けの制作物を作るとき、または『デザインはこの URL に従って』とこのキットの URL を渡されたときに使う。Use when creating slides, documents, UI, web pages, or copy for WealthPark, or when a user shares this kit's URL."
+description: "WealthPark（ウェルスパーク）のブランドに沿って資料・スライド・UI・Web・文章を作るためのデザインキット。ロゴ（SVG/PNG の URL）、ビジュアル素材、カラーとフォントの目安、社名・サービス名の表記、会社とサービスの基本情報を含む。WealthPark 向けの制作物を作るとき、または『デザインはこの URL を参考に』とこのキットの URL を渡されたときに使う。Use when creating slides, documents, UI, web pages, or copy for WealthPark, or when a user shares this kit's URL."
 ---
 
 # WealthPark Design Kit
 
-WealthParkの制作物をデザインルールに一致させるためのデザインキットです。資料やウェブページ、あるいはチラシやバナーなどを制作する際に、このURLをAIに参照させることで利用いただけます。インストールや設定などの事前準備は不要です。
+WealthParkのロゴなどの素材と、カラー・フォントの目安をまとめたデザインキットです。資料やウェブページ、あるいはチラシやバナーなどを制作する際に、このURLをAIに参照させることで利用いただけます。インストールや設定などの事前準備は不要です。
 
 - このページ: https://wealthpark-design-team.github.io/design-kit/
 - ソース（編集・提案はこちら）: https://github.com/wealthpark-design-team/design-kit
@@ -14,16 +14,16 @@ WealthParkの制作物をデザインルールに一致させるためのデザ�
 
 AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一緒にこう伝えます。
 
-> デザインは https://wealthpark-design-team.github.io/design-kit/ に従ってください。
+> デザインは https://wealthpark-design-team.github.io/design-kit/ を参考にしてください。
 
 ## AI への指示
 
 このキットの URL を渡されたら、次の順で動く。
 
-1. 以下のルール（ロゴ、カラー、タイポグラフィ、トーン）を制作物全体に適用する。
-2. 詳細が必要なときだけ、末尾の「参照ファイル」の URL を取得する。全部を読む必要はない。
-3. ロゴは必ず下のファイルを使う。ロゴを文字で打たない、描き直さない、色を変えない。
-4. 製品画面や共通のテクスチャ・背景は「2. ビジュアル素材」に用意している。必要に応じて使う。
+1. ロゴは必ず下のファイルを使う。ロゴを文字で打たない、描き直さない、色を変えない。
+2. 製品画面や共通のテクスチャ・背景は「2. ビジュアル素材」に用意している。必要に応じて使う。
+3. カラーとフォントは必要に応じて参考にする。
+4. 詳細が必要なときだけ、末尾の「参照ファイル」の URL を取得する。全部を読む必要はない。
 5. ロゴ画像を配置できない環境では、文字で代用せず、ロゴなしで作り、「ロゴは次の URL のファイルを貼ってください」とファイルの URL を添えてユーザーに伝える。
 6. 作業を終えたら「次回のために」を一度だけ案内する。
 
@@ -47,11 +47,10 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 - 周囲にシンボルの高さの 0.5 倍以上の余白を取る。最小サイズは幅 45px（印刷は 30mm）
 - 背景とのコントラスト比は 4.5:1 以上
 - 禁止: 色変更、回転、変形、不透明度の変更、効果（影・グラデーションなど）、パターン化、ロゴの直後に文字（サービス名など）を続けること
-- シンボル単体は、ファビコンやアイコンなど横組みが収まらない小さな領域に限る
 
 ## 2. ビジュアル素材
 
-製品画面や共通のテクスチャ・背景などの素材。必要に応じて使う。1 ページに背景素材は 1 つまで。画面内の数値や日付はデモ用なので、実データとして引用しない。選び方と置き方の詳細は references/visuals.md にある。
+製品画面や共通のテクスチャ・背景などの素材。必要に応じて使う。画面内の数値や日付はデモ用なので、実データとして引用しない。使用例と、文字やロゴを置くときの参考は references/visuals.md にある。
 
 | ファイル | 内容と用途 |
 |---|---|
@@ -75,13 +74,13 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 
 ## 3. カラー
 
-基調は Black × White。カテゴリごとにアクセントを 1 色だけ足す。
+基調は Black × White。カテゴリごとにアクセント色がある。
 
 | 役割 | 値 |
 |---|---|
 | 黒（文字・UI の黒） | #1A1A1A |
 | 白 | #FFFFFF |
-| グレー文字（補助テキスト。黒の代わりに使わない） | #333333 |
+| グレー文字（補助テキスト） | #333333 |
 | 薄い文字 | #666666 |
 | 背景（薄） | #F5F5F5 |
 | 罫線（薄） | #EEEEEE |
@@ -91,33 +90,29 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 |---|---|
 | コーポレート（会社案内など全社向け） | Gold #B8A86F |
 | WealthPark Business（不動産管理会社向けサービス） | Blue #2E6CFF |
-| DX コンサルティング | なし。Black × White のみ |
+| DX コンサルティング | 未定 |
 | 採用（Careers） | 暖色のグラデーション。画像で表現し、単色の指定はない |
-| WealthPark RealEstate Technologies | Red 系。値は未確定。確定まではアクセントなしで作る |
+| WealthPark RealEstate Technologies | Red 系（値は未定） |
 
-- 迷ったらコーポレートの Gold。アクセントは見出しの一部、ボタン、強調にだけ使い、面で塗らない
+- カテゴリが決まっていないときは、コーポレートの Gold が目安
 - ロゴの黒（#000000）と UI の黒（#1A1A1A）は別物。ロゴを #1A1A1A に塗り替えない
 
 ## 4. タイポグラフィ
 
-フォントは次の優先順で選ぶ。Web、スライド、チラシ、動画で共通。
+フォントの目安。上から順に、使える環境のものを選ぶ。Web、スライド、チラシ、動画で共通。
 
 1. Helvetica Neue（欧文）と ヒラギノ角ゴシック（和文）
 2. 無ければ Noto Sans JP。セリフ体が必要なときは Noto Serif JP
 3. それも無ければ 游ゴシック
 
-- 本文サイズは Web で 16px。見出し、キャプション、スライドやチラシ用のサイズは未定（用途ごとの事例と一緒に決める）
-- Web の角丸は 3 / 4 / 12 px、ピル型は 999px。線幅は 1px（強調 2px）。CSS 変数は assets/tokens.css
+- 本文サイズの目安は Web で 16px。見出し、キャプション、スライドやチラシ用のサイズは未定
+- Web の角丸（3 / 4 / 12 px、ピル型 999px）や線幅（1px、強調 2px）の参考値は assets/tokens.css にある（コーポレートサイトの実装値）
 
-## 5. トーン&マナー（暫定）
+## 5. 表記
 
-デザインチームで確定する前の暫定ルール。確定したら更新する。
-
-- 簡潔に。1 文に 1 つの内容。装飾語や誇張（「究極の」「圧倒的な」）を使わない
-- 顧客の業務を主語にする。機能の羅列より「何ができるようになるか」を書く
-- 日本語は「です・ます」。英語は平易で短い文
-- 専門用語は初出で一言そえる。社内略語（WPB など）を社外向けに出さない
-- 表記は「WealthPark」（W と P が大文字、間に空白なし）。サービス名は「WealthPark Business」「WealthParkオーナーアプリ」の正式名で書く
+- 社名は「WealthPark」（W と P が大文字、間に空白なし）
+- サービス名は正式名で書く: 「WealthPark Business」「WealthParkオーナーアプリ」「WealthPark RealEstate Technologies」
+- 一覧は references/tone.md にある
 
 ## 6. 会社・サービスの基本情報
 
@@ -145,11 +140,11 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 | ファイル | 内容 |
 |---|---|
 | https://wealthpark-design-team.github.io/design-kit/references/logo.md | 公式ロゴガイドラインの要約、ファイル一覧、禁止例 |
-| https://wealthpark-design-team.github.io/design-kit/references/colors.md | 全カラートークン、カテゴリ別の使い分け、旧実装からの移行表 |
-| https://wealthpark-design-team.github.io/design-kit/references/typography.md | フォント、サイズ、行間、見出しの組み方 |
-| https://wealthpark-design-team.github.io/design-kit/references/tone.md | 文章のトーン、表記ルール、書き換え例 |
+| https://wealthpark-design-team.github.io/design-kit/references/colors.md | 全カラートークン、カテゴリ別のアクセント、旧実装からの移行表 |
+| https://wealthpark-design-team.github.io/design-kit/references/typography.md | フォントとサイズの目安 |
+| https://wealthpark-design-team.github.io/design-kit/references/tone.md | 社名・サービス名の表記 |
 | https://wealthpark-design-team.github.io/design-kit/references/company.md | 会社概要、ビジョン（4 言語）とミッション（日英）、サービス、グループ会社 |
-| https://wealthpark-design-team.github.io/design-kit/references/visuals.md | ビジュアル素材の選び方、文字やロゴの置き方、原本の所在 |
+| https://wealthpark-design-team.github.io/design-kit/references/visuals.md | ビジュアル素材の使用例、文字やロゴを置くときの参考、原本の所在 |
 | https://wealthpark-design-team.github.io/design-kit/assets/tokens.css | CSS 変数 |
 | https://wealthpark-design-team.github.io/design-kit/assets/tokens.json | 同じ値の JSON |
 | https://wealthpark-design-team.github.io/design-kit/assets/starter/index.html | トークンとロゴを組み込んだ最小の HTML テンプレート |

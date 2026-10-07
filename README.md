@@ -1,6 +1,6 @@
 # WealthPark Design Kit
 
-WealthPark のブランド資産（ロゴ、カラー、フォント、トーン&マナー、会社情報）を、人と AI が同じ形で参照するためのキットです。
+WealthPark のブランド資産（ロゴ、ビジュアル素材、カラーとフォントの目安、表記、会社情報）を、人と AI が同じ形で参照するためのキットです。
 
 **公開ページ: https://wealthpark-design-team.github.io/design-kit/**
 
@@ -10,7 +10,7 @@ WealthPark のブランド資産（ロゴ、カラー、フォント、トーン
 
 ChatGPT、Claude、Gemini、Copilot などに、作りたいものと一緒にこう伝えるだけです。インストールや設定は要りません。
 
-> デザインは https://wealthpark-design-team.github.io/design-kit/ に従ってください。
+> デザインは https://wealthpark-design-team.github.io/design-kit/ を参考にしてください。
 
 ### エンジニア: スキルとして導入する
 
@@ -28,7 +28,7 @@ git clone https://github.com/wealthpark-design-team/design-kit .claude/skills/we
 
 ```
 SKILL.md          本文。唯一のソース。公開ページはこのファイルを GitHub Pages が描画したもの
-references/       詳細（ロゴ規定、ビジュアルの選び方、カラー、タイポグラフィ、トーン、会社情報）
+references/       詳細（ロゴ規定、ビジュアル素材、カラー、タイポグラフィ、表記、会社情報）
 assets/logo/      ロゴ（SVG / PNG）と公式ロゴガイドライン PDF
 assets/tokens.css デザイントークン（CSS 変数）
 assets/tokens.json 同じ値の JSON
