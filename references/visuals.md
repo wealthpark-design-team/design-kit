@@ -15,31 +15,33 @@
 
 | 作るもの | 第一候補 | 代替 |
 |---|---|---|
-| コーポレート資料の表紙 | texture-triangle-gold.jpg | artwork-w-sculpture-02.jpg（右半分に写真、左に文字） |
-| 全カテゴリ共通の控えめな表紙・背景 | texture-triangle-white.jpg | なし（白無地） |
-| 暗い扉ページ、章の区切り | texture-map-black.jpg（白文字・白版ロゴ） | 黒無地 #1A1A1A |
-| WealthPark Business の製品紹介 | product-devices-map-ja.jpg | product-laptop-cashflow-ja.jpg、product-business-pc-ja.png |
+| コーポレート資料の表紙 | texture-map-gray.jpg | background-white-polygons.jpg |
+| 全カテゴリ共通の控えめな背景 | background-white-polygons.jpg | background-white-waves.jpg |
+| 暗い扉ページ、章の区切り | texture-map-black.jpg（白文字・白版ロゴ） | artwork-steel-structure.jpg |
+| WealthPark Business のバナー・ヘッダー | background-blue-waves.jpg（白文字） | background-white-waves.jpg |
+| WealthPark Business の製品紹介 | product-laptop-cashflow-ja.jpg | product-business-pc-ja.png |
 | オーナーアプリの紹介 | product-phones-3-ja.jpg | product-phone-top-ja.png ほか縦の単体画面 |
-| 両製品をまとめて見せる | product-devices-ja.png | product-devices-map-ja.jpg |
-| 会社紹介、カルチャー、採用 | artwork-w-sculpture-01.jpg / 02.jpg | 採用は object-gradient-pink.png も可 |
-| Web のヒーロー | product-devices-map-ja.jpg（横 3:2） | texture-triangle-white.jpg の上に製品画面 |
+| 両製品をまとめて見せる | product-devices-ja.png | product-phones-3-ja.jpg + product-laptop-cashflow-ja.jpg |
+| 会社紹介、カルチャー | artwork-gallery-w-wall.jpg | artwork-steel-structure.jpg |
+| 採用 | artwork-steel-structure.jpg | artwork-gallery-w-wall.jpg |
+| Web のヒーロー | background-white-waves.jpg の上に製品画面 | texture-map-gray.jpg |
 
 ## 文字を置く位置
 
 | ファイル | 向き | 文字を置ける場所 | 文字色 |
 |---|---|---|---|
-| texture-triangle-gold.jpg | 縦寄り 1440×1567 | 左上〜中央左の白い領域。右側の金の面には置かない | 黒 |
-| texture-triangle-white.jpg | 縦寄り 1440×1255 | 全面 | 黒 |
+| texture-map-gray.jpg | 横 1440×1027 | 全面 | 黒 |
 | texture-map-black.jpg | 横 1440×1024 | 全面（線が細いので可読） | 白 |
-| object-gradient-pink.png | 横 1920×1080 | 左側の空いた領域 | 黒 |
-| artwork-w-sculpture-01.jpg | 縦 1040×1560 | 上部の壁の領域 | 白（帯を敷く） |
-| artwork-w-sculpture-02.jpg | 縦 1448×2172 | 上部の壁の領域 | 白（帯を敷く） |
-| product-devices-map-ja.jpg | 横 3000×2000 | 左上。端末に重ねない | 黒 |
+| background-white-polygons.jpg | 横 2400×1268 | 全面 | 黒 |
+| background-white-waves.jpg | 横長 2400×800 | 全面。左寄せが収まりやすい | 黒 |
+| background-blue-waves.jpg | 横長 2400×800 | 全面。左寄せが収まりやすい | 白 |
+| artwork-gallery-w-wall.jpg | 横 1920×1080 | 上部の壁の余白 | 黒（帯なし）または白（帯あり） |
+| artwork-steel-structure.jpg | 縦 1216×1824 | 下部の暗い部分 | 白（帯を敷く） |
 | product-devices-ja.png | 横 2240×1368 | 左側。端末に重ねない | 黒 |
 | product-phones-3-ja.jpg | 横 3000×2000 | 上下の余白のみ | 黒 |
 | product-laptop-cashflow-ja.jpg | 横 2400×1465 | 左右の余白のみ | 黒 |
-| product-business-pc-ja.png | 横 1600×972 | 置かない（画面そのもの） | |
-| product-phone-*.png | 縦 791×1600 | 置かない（画面そのもの）。横に文章を添える | |
+| product-business-pc-ja.png | 横 1600×977 | 置かない（画面そのもの） | |
+| product-phone-*.png | 縦 790×1600 | 置かない（画面そのもの）。横に文章を添える | |
 
 ## スライドや文書での使い方
 
@@ -52,4 +54,4 @@
 
 - 使える画像（jpg / png / svg）はすべてこのキットに置く。Google Drive はアクセス制限があり AI から読めないので、参照先にしない。Drive に残すのは Illustrator / Photoshop の原本（ai / psd）だけ
 - 画像は Web 用のサイズにして置く（長辺 2400px 以下、1 点 1MB 以下が目安）。原寸が必要なときは Drive の原本を使う
-- 素材を増やすときは、用途の分かる名前（`texture-` / `artwork-` / `product-` / `object-` + 内容 + 言語）を付け、SKILL.md の表に一言説明を書き、このファイルの「文字を置く位置」にも行を足す。説明がない素材は AI が選べないので、説明を書けない素材は入れない
+- 素材を増やすときは、用途の分かる名前（`texture-` / `background-` / `artwork-` / `product-` + 内容 + 言語）を付け、SKILL.md の表に一言説明を書き、このファイルの「文字を置く位置」にも行を足す。説明がない素材は AI が選べないので、説明を書けない素材は入れない

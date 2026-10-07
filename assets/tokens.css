@@ -17,8 +17,9 @@
   --wp-color-accent: var(--wp-color-accent-corporate);
 
   /* Typography */
-  --wp-font-family-base: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', Meiryo, sans-serif;
-  --wp-font-family-hero: 'Noto Sans JP', var(--wp-font-family-base);
+  /* priority: Helvetica Neue + Hiragino -> Noto Sans JP -> Yu Gothic */
+  --wp-font-family-base: 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', YuGothic, sans-serif;
+  --wp-font-family-serif: 'Noto Serif JP', serif;
   --wp-font-size-xs: 12px;
   --wp-font-size-sm: 14px;
   --wp-font-size-md: 16px;

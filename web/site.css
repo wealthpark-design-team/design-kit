@@ -10,7 +10,7 @@
   --dk-border: #eeeeee;
   --dk-border-strong: #cccccc;
   --dk-accent: #b8a86f;
-  --dk-font: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', Meiryo, sans-serif;
+  --dk-font: 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', YuGothic, sans-serif;
   --dk-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
 }
 

@@ -55,13 +55,13 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 
 | ファイル | 内容と用途 |
 |---|---|
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/texture-triangle-gold.jpg | 白地に金とグレーの三角形パターン。コーポレートの表紙・扉。左側に文字を置ける |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/texture-triangle-white.jpg | 白地にごく薄い三角形パターン。全カテゴリ共通の控えめな背景。全面に文字を置ける |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/texture-map-gray.jpg | 薄いグレー地に細い線の都市地図。明るい表紙・背景。全面に黒文字を置ける |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/background-white-polygons.jpg | 白〜薄いグレーの多角形の立体パターン（横）。全カテゴリ共通の控えめな背景。黒文字 |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/background-white-waves.jpg | 白〜薄いグレーの流線（横長 3:1）。Web のバナーやヘッダーの背景。黒文字 |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/background-blue-waves.jpg | 鮮やかな青の流線（横長 3:1）。WealthPark Business のバナーやヘッダーの背景。白文字 |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/artwork-gallery-w-wall.jpg | ギャラリーの白い壁に W シンボルの立体と、紺と金の幾何学パネル。手前に人物（横 16:9）。会社紹介・カルチャー向け |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/artwork-steel-structure.jpg | 鉄骨の三角トラスを見上げたモノクロ調の写真（縦）。扉ページや採用向け。白文字に帯を敷く |
 | https://wealthpark-design-team.github.io/design-kit/assets/visuals/texture-map-black.jpg | 黒地に細い線の都市地図。暗い扉・区切りページ。白文字と白版ロゴを使う |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/object-gradient-pink.png | 暖色グラデーションの背景に多面体の 3D オブジェクト。採用（Careers）系の暖色ビジュアル向け。コーポレートと Business では使わない |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/artwork-w-sculpture-01.jpg | ギャラリー空間に置かれた W シンボルの立体造形の写真（縦）。会社紹介・カルチャー向け |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/artwork-w-sculpture-02.jpg | 同じ造形を正面から（縦） |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-devices-map-ja.jpg | 薄い地図の上にノート PC（WealthPark Business）とスマホ（オーナーアプリ）。製品紹介のキービジュアル（横） |
 | https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-devices-ja.png | 白背景にノート PC とスマホ 2 台。製品紹介（横） |
 | https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phones-3-ja.jpg | スマホ 3 台にオーナーアプリの画面。アプリ紹介（横） |
 | https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-laptop-cashflow-ja.jpg | ノート PC に WealthPark Business の収支画面（横） |
@@ -70,6 +70,8 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 | https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-cashflow-ja.png | オーナーアプリの収支グラフ画面（縦） |
 | https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-activity-ja.png | オーナーアプリのアクティビティ画面（縦） |
 | https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-signin-ja.png | オーナーアプリのサインイン画面（縦） |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-chat-ja.png | オーナーアプリのチャット画面（縦） |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-cashflow-pdf-ja.png | オーナーアプリの収支報告 PDF の表示画面（縦） |
 
 ## 3. カラー
 
@@ -98,12 +100,14 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 
 ## 4. タイポグラフィ
 
-- 本文: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'BIZ UDPGothic', Meiryo, sans-serif
-- ヒーロー（ページ最上部の大見出し）のみ 'Noto Sans JP'。中国語は Noto Sans SC / TC。地の文や通常の見出しには使わない
-- 游ゴシック（Yu Gothic）は使わない
-- サイズ: 12 / 14 / 16 / 18 / 22 / 24 / 30 / 40 / 50 / 64 / 72 px。本文は 16px
-- 角丸: 3 / 4 / 12 px、ピル型は 999px。線幅は 1px（強調 2px）
-- スライドなどで Helvetica Neue が使えない環境では、英数字は Arial、日本語はヒラギノ角ゴかメイリオ
+フォントは次の優先順で選ぶ。Web、スライド、チラシ、動画で共通。
+
+1. Helvetica Neue（欧文）と ヒラギノ角ゴシック（和文）
+2. 無ければ Noto Sans JP。セリフ体が必要なときは Noto Serif JP
+3. それも無ければ 游ゴシック
+
+- 本文サイズは Web で 16px。見出し、キャプション、スライドやチラシ用のサイズは未定（用途ごとの事例と一緒に決める）
+- Web の角丸は 3 / 4 / 12 px、ピル型は 999px。線幅は 1px（強調 2px）。CSS 変数は assets/tokens.css
 
 ## 5. トーン&マナー（暫定）
 
