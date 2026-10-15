@@ -34,6 +34,9 @@ assets/tokens.css デザイントークン（CSS 変数）
 assets/tokens.json 同じ値の JSON
 assets/starter/   トークンとロゴを組み込んだ最小の HTML テンプレート
 assets/visuals/   キービジュアル、テクスチャ、製品画面（Web 用に縮小。原本は Drive）
+assets/icons/     Material Symbols のアイコン（塗りあり / 線のみ）とライセンス文
+docs/             改善施策の一覧（backlog.md）と、その根拠の調査（research/）。公開ページには含めない
+scripts/          プレビュー、アイコンの取得
 _config.yml       GitHub Pages（Jekyll）の設定
 _layouts/ web/    公開ページの見た目だけ（ロゴのサムネイル、色見本、コピーボタン）。キットの内容ではなく、SKILL.md のテキストには影響しない
 ```

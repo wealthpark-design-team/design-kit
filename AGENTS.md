@@ -17,6 +17,7 @@ WealthPark の制作物をブランドに合わせるための共通参照先。
 
 - ロゴ: `assets/logo/`。正本はデザインチームの Google Drive「共有素材 / 001_Logo」。ファイル名は `wealthpark-<brand>-logo(-inverse).<svg|png>`、シンボルは `wealthpark-<brand>-symbol`
 - ビジュアル: `assets/visuals/`。名前は `texture-` / `background-` / `artwork-` / `product-` + 内容 + 言語。長辺 2400px 以下。1 点ごとに `SKILL.md` の表に一言説明を書く。説明がない素材は AI が選べないので入れない。ai / psd は入れない（Drive に残す）
+- アイコン: `assets/icons/{filled,outlined}/<Material Symbols の名前>.svg`。追加は `scripts/fetch-icons.py <名前>`。足したら `SKILL.md` の表と `references/icons.md` に用途を書く
 - Google Drive は AI から読めないので、参照先に書かない
 - 既存のファイル名は変えない。URL を参照している資料が壊れる
 
@@ -24,7 +25,13 @@ WealthPark の制作物をブランドに合わせるための共通参照先。
 
 - 人が決めたことと AI の下書きを区別する。AI が書いた仮の決まりには「暫定」と明記し、承認されるまでルールとして扱わない
 - 「未定」は未定のまま書く。もっともらしい値を埋めない
+- 禁止の形ではなく推奨の形で書く。LLM は否定の文言を取り違えることがある
 - 翻訳や断定の根拠が公式ガイドライン PDF（`assets/logo/Logo-Guideline_WealthPark_JP.pdf`）にある場合はそれを正とする
+
+## 施策と根拠
+
+- 改善施策の一覧と状態は `docs/backlog.md`。根拠は `docs/research/README.md`（調査のまとめと原本）。施策を進めたら状態を更新する
+- `docs/` と `scripts/` は公開ページに含めない（`_config.yml` の exclude）
 
 ## 確認と公開
 
