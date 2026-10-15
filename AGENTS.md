@@ -11,7 +11,7 @@ WealthPark の制作物をブランドに合わせるための共通参照先。
 - 本文は `SKILL.md` だけ。公開ページ（https://wealthpark-design-team.github.io/design-kit/ ）は GitHub Pages がこのファイルを描画したもの。別のファイルに本文を複製しない
 - `SKILL.md` は素のテキストに保つ。画像タグ、色見本、ボタンなど見た目の要素は `_layouts/default.html` と `web/` に置く（ブラウザで動く JS/CSS）。AI が取得する内容を変えないため
 - 詳細は `references/` に置き、`SKILL.md` からは絶対 URL で参照する。`references/*.md` は素の Markdown のまま配信される
-- ファイル参照はすべて絶対 URL（`https://wealthpark-design-team.github.io/design-kit/...`）。インストールして使う人にも URL のまま届く
+- ファイル参照はすべて絶対 URL（`https://wealthpark-design-team.github.io/design-kit/...`）。インストールして使う人にも URL のまま届く。URL の直後に句読点を続けず、空白を入れる（句点まで URL として読まれるため）
 
 ## 素材
 

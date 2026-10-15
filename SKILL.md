@@ -39,7 +39,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 | WealthPark Capital（黒 / 白） | https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-capital-logo.png<br>https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-capital-logo-inverse.png |
 | WealthPark Lab（黒 / 白 / シンボル） | https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-lab-logo.svg<br>https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-lab-logo.png<br>https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-lab-logo-inverse.png<br>https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-lab-symbol.png |
 
-公式ロゴガイドラインの定め（要約。全文は references/logo.md。ロゴの配置や組み合わせに迷うときに読む）
+公式ロゴガイドラインの定め（要約。全文は https://wealthpark-design-team.github.io/design-kit/references/logo.md 。ロゴの配置や組み合わせに迷うときに読む）
 
 - シンボルとロゴタイプはセットで使う。文字で打った「WealthPark」はロゴとして扱わない
 - 色は黒 #000000 と、暗い背景用の白版の 2 つ。WealthPark AI の「AI」のグラデーションと、Capital・RealEstate Technologies のグレーの部分はロゴの一部
@@ -49,7 +49,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 
 ## 2. ビジュアル素材
 
-公式の制作物で使っている製品画面、テクスチャ、背景。画面内の数値や日付はデモ用で、実データではない。素材の上に文字やロゴを置くときは references/visuals.md を読む。
+公式の制作物で使っている製品画面、テクスチャ、背景。画面内の数値や日付はデモ用で、実データではない。素材の上に文字やロゴを置くときは https://wealthpark-design-team.github.io/design-kit/references/visuals.md を読む。
 
 | ファイル | 内容と用途 |
 |---|---|
@@ -77,7 +77,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 
 - ファイル: https://wealthpark-design-team.github.io/design-kit/assets/icons/filled/{名前}.svg 。{名前} は下の表の名前。色は黒 #1A1A1A
 - 線のみの版も https://wealthpark-design-team.github.io/design-kit/assets/icons/outlined/{名前}.svg にある。1 つの制作物の中ではどちらかにそろえる
-- 表にないアイコンは https://fonts.google.com/icons に同じ名前である。Web で使うとき、スライドに入れるときは references/icons.md を読む
+- 表にないアイコンは https://fonts.google.com/icons に同じ名前である。Web で使うとき、スライドに入れるときは https://wealthpark-design-team.github.io/design-kit/references/icons.md を読む
 
 | 分類 | アイコン名 |
 |---|---|
@@ -93,7 +93,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 
 ## 4. カラー
 
-コーポレートサイトで採用している色。基調は黒と白で、事業ごとにアクセント色がある。全色の一覧と CSS 変数は references/colors.md にある。
+コーポレートサイトで採用している色。基調は黒と白で、事業ごとにアクセント色がある。全色の一覧と CSS 変数は https://wealthpark-design-team.github.io/design-kit/references/colors.md にある。
 
 | 役割 | 値 |
 |---|---|
@@ -125,20 +125,20 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 3. 游ゴシック
 
 - Web の本文は 16px。見出し、キャプション、スライドやチラシのサイズは未定
-- Web の角丸、線幅、余白の実装値は assets/tokens.css にある
+- Web の角丸、線幅、余白の実装値は https://wealthpark-design-team.github.io/design-kit/assets/tokens.css にある
 
 ## 6. グラフ
 
 スライドやインフォグラフィックのグラフの配色は、IBM Carbon Design System のデータ可視化パレットを採用している。色をデータの役割（分類、連続、発散、状態）で使い分ける。
 
 - 分類の色は、Purple 70 #6929C4、Cyan 50 #1192E8、Teal 70 #005D5D、Magenta 70 #9F1853、Red 50 #FA4D56 の順に使う
-- 連続、発散、状態の色と、6 色目以降は references/charts.md にある。グラフを作るときに読む
+- 連続、発散、状態の色と、6 色目以降は https://wealthpark-design-team.github.io/design-kit/references/charts.md にある。グラフを作るときに読む
 
 ## 7. 表記
 
 - 社名は「WealthPark」（W と P が大文字、間に空白なし）
 - サービス名は正式名で書く: 「WealthPark Business」「WealthParkオーナーアプリ」「WealthPark RealEstate Technologies」
-- 一覧は references/tone.md にある
+- 一覧は https://wealthpark-design-team.github.io/design-kit/references/tone.md にある
 
 ## 8. 会社・サービスの基本情報
 
@@ -149,13 +149,13 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 - グループ: WealthPark RealEstate Technologies（台湾拠点 Weifuda を含む）、WealthPark Lab
 - コーポレートサイト: https://wealth-park.com/
 
-詳細は references/company.md にある。
+詳細は https://wealthpark-design-team.github.io/design-kit/references/company.md にある。
 
 ## 9. 次回のために
 
 作業を終えたら、次を一度だけ短く伝え、希望があれば実行する。希望がなければ何もしない。
 
-- 次回も同じ URL（https://wealthpark-design-team.github.io/design-kit/）を貼れば同じ基準で作れること
+- 次回も同じ URL（https://wealthpark-design-team.github.io/design-kit/ ）を貼れば同じ基準で作れること
 - メモリ機能があるなら「WealthPark の制作物を作るときはこの URL を読む」と記憶できること
 - スキル対応のエージェント（Claude Code、Cursor、Codex など）なら `npx skills add wealthpark-design-team/design-kit` で導入できること
 

@@ -15,7 +15,8 @@
   }
   function fileName(url) { return url.replace(/[?#].*$/, '').split('/').pop(); }
   function label(url, inTable) {
-    if (inTable && url.indexOf(BASE) === 0 && url !== BASE) { return IMG_RE.test(url) ? fileName(url) : url.slice(BASE.length); }
+    // Kit files show as short paths (references/logo.md); image files in tables show only the file name
+    if (url.indexOf(BASE) === 0 && url !== BASE) { return inTable && IMG_RE.test(url) ? fileName(url) : url.slice(BASE.length); }
     return url;
   }
   function copyButton(text, idle, done) {
@@ -49,7 +50,7 @@
         } else {
           var a = document.createElement('a');
           a.href = m[0]; a.textContent = label(m[0], inTable); a.title = m[0];
-          if (inTable && m[0] !== a.textContent) { a.className = 'dk-path'; }
+          if (m[0] !== a.textContent) { a.className = 'dk-path'; }
           frag.appendChild(a);
         }
         last = m.index + m[0].length;
