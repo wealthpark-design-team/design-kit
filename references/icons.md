@@ -7,8 +7,8 @@ Google の Material Symbols を使う。Apache License 2.0 で、商用利用で
 - 塗りあり: https://wealthpark-design-team.github.io/design-kit/assets/icons/filled/{名前}.svg
 - 線のみ: https://wealthpark-design-team.github.io/design-kit/assets/icons/outlined/{名前}.svg
 - どちらも 24px の正方形、太さ 400、色は黒 #1A1A1A。拡大しても劣化しない
-- 塗りありと線のみのどちらを標準にするかは未定。コーポレートサイトは塗りあり、太さ 400 で使っている
-- 1 つの制作物の中ではどちらかにそろえると統一感が出る
+- 標準は塗りあり。コーポレートサイトも塗りあり、太さ 400 で使っている
+- 線のみの版も置いている。1 つの制作物の中ではどちらかにそろえる
 
 ## 収録しているアイコンと用途の例
 

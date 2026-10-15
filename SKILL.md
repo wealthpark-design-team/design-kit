@@ -78,7 +78,7 @@ Google の Material Symbols（Apache License 2.0。商用利用可）を使う�
 
 - ファイル: https://wealthpark-design-team.github.io/design-kit/assets/icons/filled/{名前}.svg （塗りあり）と https://wealthpark-design-team.github.io/design-kit/assets/icons/outlined/{名前}.svg （線のみ）。{名前} は下の表の名前をそのまま入れる
 - 色は黒 #1A1A1A。暗い背景では白にして使う
-- 1 つの制作物の中では、塗りありか線のみのどちらかにそろえると統一感が出る。どちらを標準にするかは未定。コーポレートサイトは塗りあり、太さ 400
+- 標準は塗りあり（filled）。コーポレートサイトと同じ。線のみ（outlined）も同じ名前で用意しているが、1 つの制作物の中ではどちらかにそろえる
 - 下の表にないアイコンは https://fonts.google.com/icons で同じ名前で探せる。Web での読み込み方、スライドでの使い方、各アイコンの用途は references/icons.md にある
 
 | 分類 | アイコン名 |
