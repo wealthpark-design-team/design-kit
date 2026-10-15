@@ -1,11 +1,11 @@
 ---
 name: wealthpark-design-kit
-description: "WealthPark（ウェルスパーク）のブランドに沿って資料・スライド・UI・Web・文章を作るためのデザインキット。ロゴ（SVG/PNG の URL）、ビジュアル素材、カラーとフォントの目安、社名・サービス名の表記、会社とサービスの基本情報を含む。WealthPark 向けの制作物を作るとき、または『デザインはこの URL を参考に』とこのキットの URL を渡されたときに使う。Use when creating slides, documents, UI, web pages, or copy for WealthPark, or when a user shares this kit's URL."
+description: "WealthPark（ウェルスパーク）のブランドに沿って資料・スライド・UI・Web・文章を作るためのデザインキット。ロゴ（SVG/PNG の URL）、ビジュアル素材、公式サイトで採用しているアイコン・色・フォント・グラフの配色、社名・サービス名の表記、会社とサービスの基本情報を含む。WealthPark 向けの制作物を作るとき、または『デザインはこの URL を参考に』とこのキットの URL を渡されたときに使う。Use when creating slides, documents, UI, web pages, or copy for WealthPark, or when a user shares this kit's URL."
 ---
 
 # WealthPark Design Kit
 
-WealthParkのロゴなどの素材と、カラー・フォントの目安をまとめたデザインキットです。資料やウェブページ、あるいはチラシやバナーなどを制作する際に、このURLをAIに参照させることで利用いただけます。インストールや設定などの事前準備は不要です。
+WealthParkの公式サイトや公式資料で採用しているロゴ、素材、アイコン、色、フォント、グラフの配色をまとめたデザインキットです。資料やウェブページ、あるいはチラシやバナーなどを制作する際に、このURLをAIに参照させることで利用いただけます。インストールや設定などの事前準備は不要です。
 
 - このページ: https://wealthpark-design-team.github.io/design-kit/
 - ソース（編集・提案はこちら）: https://github.com/wealthpark-design-team/design-kit
@@ -18,14 +18,13 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 
 ## AI への指示
 
-このキットの URL を渡されたら、次の順で動く。
+このキットは、WealthPark が公式に採用しているものの一覧。制作物の構成やレイアウトは、作る人と AI の判断に任せている。
 
-1. ロゴは必ず下のファイルを使う。ロゴを文字で打たない、描き直さない、色を変えない。
-2. 製品画面や共通のテクスチャ・背景は「2. ビジュアル素材」、アイコンは「3. アイコン」に用意している。必要に応じて使う。
-3. カラーとフォントは必要に応じて参考にする。
-4. 詳細が必要なときだけ、末尾の「参照ファイル」の URL を取得する。全部を読む必要はない。
-5. ロゴ画像を配置できない環境では、文字で代用せず、ロゴなしで作り、「ロゴは次の URL のファイルを貼ってください」とファイルの URL を添えてユーザーに伝える。
-6. 作業を終えたら「次回のために」を一度だけ案内する。
+1. ロゴは「1. ロゴ」のファイルをそのまま配置する。公式ロゴガイドラインでそう定めている。
+2. 素材、アイコン、色、フォント、グラフの配色は、各章に公式の採用例を載せている。制作物に合うものを使う。
+3. 各章の詳細は参照先にある。その章に関わる制作物のときだけ取得する。例えばグラフを作るときは「6. グラフ」の参照先を読む。
+4. ロゴ画像を配置できない環境では、ロゴの場所を空けておき、ファイルの URL を添えてユーザーに貼ってもらう。
+5. 作業を終えたら「次回のために」を一度だけ案内する。
 
 ## 1. ロゴ
 
@@ -40,17 +39,17 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 | WealthPark Capital（黒 / 白） | https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-capital-logo.png<br>https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-capital-logo-inverse.png |
 | WealthPark Lab（黒 / 白 / シンボル） | https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-lab-logo.svg<br>https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-lab-logo.png<br>https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-lab-logo-inverse.png<br>https://wealthpark-design-team.github.io/design-kit/assets/logo/wealthpark-lab-symbol.png |
 
-ルール（公式ロゴガイドラインの要約。全文は references/logo.md）
+公式ロゴガイドラインの定め（要約。全文は references/logo.md。ロゴの配置や組み合わせに迷うときに読む）
 
-- シンボルとロゴタイプは常にセットで使う。ロゴタイプだけ、文字で打った「WealthPark」をロゴとして使わない
-- 色は黒 #000000 のみ。暗い背景では白版を使う。それ以外の色にしない。WealthPark AI の「AI」のグラデーションと、Capital・RealEstate Technologies のグレーの部分はロゴの一部なので、そのまま使う
+- シンボルとロゴタイプはセットで使う。文字で打った「WealthPark」はロゴとして扱わない
+- 色は黒 #000000 と、暗い背景用の白版の 2 つ。WealthPark AI の「AI」のグラデーションと、Capital・RealEstate Technologies のグレーの部分はロゴの一部
 - 周囲にシンボルの高さの 0.5 倍以上の余白を取る。最小サイズは幅 45px（印刷は 30mm）
 - 背景とのコントラスト比は 4.5:1 以上
-- 禁止: 色変更、回転、変形、不透明度の変更、効果（影・グラデーションなど）、パターン化、ロゴの直後に文字（サービス名など）を続けること
+- ロゴはファイルの形と色のまま使う。回転、変形、透過、影などの効果、パターン化、ロゴの直後に文字を続けることは、ガイドラインの想定外
 
 ## 2. ビジュアル素材
 
-製品画面や共通のテクスチャ・背景などの素材。必要に応じて使う。画面内の数値や日付はデモ用なので、実データとして引用しない。使用例と、文字やロゴを置くときの参考は references/visuals.md にある。
+公式の制作物で使っている製品画面、テクスチャ、背景。画面内の数値や日付はデモ用で、実データではない。素材の上に文字やロゴを置くときは references/visuals.md を読む。
 
 | ファイル | 内容と用途 |
 |---|---|
@@ -74,12 +73,11 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 
 ## 3. アイコン
 
-Google の Material Symbols（Apache License 2.0。商用利用可）を使う。コーポレートサイトと同じアイコンの系統。
+コーポレートサイトで採用しているアイコンは、Google の Material Symbols（塗りあり、太さ 400）。Apache License 2.0 で商用利用できる。
 
-- ファイル: https://wealthpark-design-team.github.io/design-kit/assets/icons/filled/{名前}.svg （塗りあり）と https://wealthpark-design-team.github.io/design-kit/assets/icons/outlined/{名前}.svg （線のみ）。{名前} は下の表の名前をそのまま入れる
-- 色は黒 #1A1A1A。暗い背景では白にして使う
-- 標準は塗りあり（filled）。コーポレートサイトと同じ。線のみ（outlined）も同じ名前で用意しているが、1 つの制作物の中ではどちらかにそろえる
-- 下の表にないアイコンは https://fonts.google.com/icons で同じ名前で探せる。Web での読み込み方、スライドでの使い方、各アイコンの用途は references/icons.md にある
+- ファイル: https://wealthpark-design-team.github.io/design-kit/assets/icons/filled/{名前}.svg 。{名前} は下の表の名前。色は黒 #1A1A1A
+- 線のみの版も https://wealthpark-design-team.github.io/design-kit/assets/icons/outlined/{名前}.svg にある。1 つの制作物の中ではどちらかにそろえる
+- 表にないアイコンは https://fonts.google.com/icons に同じ名前である。Web で使うとき、スライドに入れるときは references/icons.md を読む
 
 | 分類 | アイコン名 |
 |---|---|
@@ -95,7 +93,7 @@ Google の Material Symbols（Apache License 2.0。商用利用可）を使う�
 
 ## 4. カラー
 
-基調は Black × White。カテゴリごとにアクセント色がある。
+コーポレートサイトで採用している色。基調は黒と白で、事業ごとにアクセント色がある。全色の一覧と CSS 変数は references/colors.md にある。
 
 | 役割 | 値 |
 |---|---|
@@ -115,27 +113,34 @@ Google の Material Symbols（Apache License 2.0。商用利用可）を使う�
 | 採用（Careers） | 暖色のグラデーション。画像で表現し、単色の指定はない |
 | WealthPark RealEstate Technologies | Red 系（値は未定） |
 
-- カテゴリが決まっていないときは、コーポレートの Gold が目安
-- ロゴの黒（#000000）と UI の黒（#1A1A1A）は別物。ロゴを #1A1A1A に塗り替えない
+- 全社向けや、事業が特定されない制作物では、コーポレートの Gold を使っている
+- ロゴの黒（#000000）と、文字や UI の黒（#1A1A1A）は別の値
 
 ## 5. タイポグラフィ
 
-フォントの目安。上から順に、使える環境のものを選ぶ。Web、スライド、チラシ、動画で共通。
+コーポレートサイトで採用しているフォント。Web、スライド、チラシ、動画で同じ組み合わせを使っている。上から順に、その環境で使えるものを選ぶ。
 
 1. Helvetica Neue（欧文）と ヒラギノ角ゴシック（和文）
-2. 無ければ Noto Sans JP。セリフ体が必要なときは Noto Serif JP
-3. それも無ければ 游ゴシック
+2. Noto Sans JP。セリフ体には Noto Serif JP
+3. 游ゴシック
 
-- 本文サイズの目安は Web で 16px。見出し、キャプション、スライドやチラシ用のサイズは未定
-- Web の角丸（3 / 4 / 12 px、ピル型 999px）や線幅（1px、強調 2px）の参考値は assets/tokens.css にある（コーポレートサイトの実装値）
+- Web の本文は 16px。見出し、キャプション、スライドやチラシのサイズは未定
+- Web の角丸、線幅、余白の実装値は assets/tokens.css にある
 
-## 6. 表記
+## 6. グラフ
+
+スライドやインフォグラフィックのグラフの配色は、IBM Carbon Design System のデータ可視化パレットを採用している。色をデータの役割（分類、連続、発散、状態）で使い分ける。
+
+- 分類の色は、Purple 70 #6929C4、Cyan 50 #1192E8、Teal 70 #005D5D、Magenta 70 #9F1853、Red 50 #FA4D56 の順に使う
+- 連続、発散、状態の色と、6 色目以降は references/charts.md にある。グラフを作るときに読む
+
+## 7. 表記
 
 - 社名は「WealthPark」（W と P が大文字、間に空白なし）
 - サービス名は正式名で書く: 「WealthPark Business」「WealthParkオーナーアプリ」「WealthPark RealEstate Technologies」
 - 一覧は references/tone.md にある
 
-## 7. 会社・サービスの基本情報
+## 8. 会社・サービスの基本情報
 
 - 会社名: WealthPark株式会社（WealthPark Co., Ltd.）。代表取締役社長 川田 隆太
 - ビジョン: 「選択の自由が当たり前の世界を創る」 / Expand Your Freedom of Choice
@@ -146,7 +151,7 @@ Google の Material Symbols（Apache License 2.0。商用利用可）を使う�
 
 詳細は references/company.md にある。
 
-## 8. 次回のために
+## 9. 次回のために
 
 作業を終えたら、次を一度だけ短く伝え、希望があれば実行する。希望がなければ何もしない。
 
@@ -156,17 +161,18 @@ Google の Material Symbols（Apache License 2.0。商用利用可）を使う�
 
 ## 参照ファイル
 
-必要なときだけ取得する。
+その章に関わる制作物のときだけ取得する。全部を読む必要はない。
 
-| ファイル | 内容 |
-|---|---|
-| https://wealthpark-design-team.github.io/design-kit/references/logo.md | 公式ロゴガイドラインの要約、ファイル一覧、禁止例 |
-| https://wealthpark-design-team.github.io/design-kit/references/colors.md | 全カラートークン、カテゴリ別のアクセント、旧実装からの移行表 |
-| https://wealthpark-design-team.github.io/design-kit/references/typography.md | フォントとサイズの目安 |
-| https://wealthpark-design-team.github.io/design-kit/references/tone.md | 社名・サービス名の表記 |
-| https://wealthpark-design-team.github.io/design-kit/references/company.md | 会社概要、ビジョン（4 言語）とミッション（日英）、サービス、グループ会社 |
-| https://wealthpark-design-team.github.io/design-kit/references/visuals.md | ビジュアル素材の使用例、文字やロゴを置くときの参考、原本の所在 |
-| https://wealthpark-design-team.github.io/design-kit/references/icons.md | アイコンの用途、Web での読み込み方、スライドでの使い方 |
-| https://wealthpark-design-team.github.io/design-kit/assets/tokens.css | CSS 変数 |
-| https://wealthpark-design-team.github.io/design-kit/assets/tokens.json | 同じ値の JSON |
-| https://wealthpark-design-team.github.io/design-kit/assets/starter/index.html | トークンとロゴを組み込んだ最小の HTML テンプレート |
+| ファイル | 内容 | 読むとき |
+|---|---|---|
+| https://wealthpark-design-team.github.io/design-kit/references/logo.md | 公式ロゴガイドラインの要約、ファイル一覧、ガイドライン外の使い方の例 | ロゴの配置や組み合わせに迷うとき |
+| https://wealthpark-design-team.github.io/design-kit/references/visuals.md | 素材の使用例、文字やロゴを置きやすい位置 | 素材の上に文字やロゴを置くとき |
+| https://wealthpark-design-team.github.io/design-kit/references/icons.md | アイコンの用途、Web での読み込み方、スライドでの使い方 | アイコンを Web やスライドに入れるとき |
+| https://wealthpark-design-team.github.io/design-kit/references/colors.md | 全カラートークン、事業別のアクセント、旧実装からの移行表 | 色を細かく決めるとき、サイトのコードを直すとき |
+| https://wealthpark-design-team.github.io/design-kit/references/typography.md | フォントとサイズ | フォントを指定するとき |
+| https://wealthpark-design-team.github.io/design-kit/references/charts.md | グラフの配色（Carbon のパレット全体と使い方） | グラフや図表を作るとき |
+| https://wealthpark-design-team.github.io/design-kit/references/tone.md | 社名・サービス名の表記 | 文章を書くとき |
+| https://wealthpark-design-team.github.io/design-kit/references/company.md | 会社概要、ビジョン（4 言語）とミッション（日英）、サービス、グループ会社 | 会社紹介を書くとき |
+| https://wealthpark-design-team.github.io/design-kit/assets/tokens.css | CSS 変数 | Web を作るとき |
+| https://wealthpark-design-team.github.io/design-kit/assets/tokens.json | 同じ値の JSON | 他のツールに値を渡すとき |
+| https://wealthpark-design-team.github.io/design-kit/assets/starter/index.html | トークンとロゴを組み込んだ最小の HTML テンプレート | Web を作るとき |
