@@ -1,6 +1,6 @@
 /* Presentation layer for the published page only.
-   Turns bare URLs into links, lists logo files as tiles, puts swatches next to hex codes,
-   and adds copy buttons. Runs in the browser; SKILL.md stays plain text for AI agents. */
+   Turns bare URLs into links, lists logo files as tiles, shows icon names as icon tiles,
+   puts swatches next to hex codes, and adds copy buttons. Runs in the browser; SKILL.md stays plain text for AI agents. */
 (function () {
   var BASE = 'https://wealthpark-design-team.github.io/design-kit/';
   var URL_RE = /https?:\/\/[^\s<>"'()（）、。」』]+/g;
@@ -32,6 +32,9 @@
   ready(function () {
     var main = document.querySelector('.dk-main');
     if (!main) { return; }
+    // Asset base for images on this page (the published site, or local files in the preview)
+    var logo = document.querySelector('.dk-header__brand img');
+    var ASSETS = logo ? logo.src.replace(/logo\/[^\/]+$/, '') : BASE + 'assets/';
 
     // 1. Bare URLs -> links (kramdown leaves them as text)
     textNodes(main, function (t) { return URL_RE.test(t); }).forEach(function (node) {
@@ -40,10 +43,15 @@
       URL_RE.lastIndex = 0;
       while ((m = URL_RE.exec(text))) {
         frag.appendChild(document.createTextNode(text.slice(last, m.index)));
-        var a = document.createElement('a');
-        a.href = m[0]; a.textContent = label(m[0], inTable); a.title = m[0];
-        if (inTable && m[0] !== a.textContent) { a.className = 'dk-path'; }
-        frag.appendChild(a);
+        if (/[{}]/.test(m[0])) {
+          // URL template such as .../icons/filled/{名前}.svg: show it, but not as a broken link
+          var code = document.createElement('code'); code.textContent = m[0]; frag.appendChild(code);
+        } else {
+          var a = document.createElement('a');
+          a.href = m[0]; a.textContent = label(m[0], inTable); a.title = m[0];
+          if (inTable && m[0] !== a.textContent) { a.className = 'dk-path'; }
+          frag.appendChild(a);
+        }
         last = m.index + m[0].length;
       }
       frag.appendChild(document.createTextNode(text.slice(last)));
@@ -77,6 +85,26 @@
     main.querySelectorAll('table').forEach(function (table) {
       var wrap = document.createElement('div'); wrap.className = 'dk-table-wrap';
       table.parentNode.insertBefore(wrap, table); wrap.appendChild(table);
+
+      // Icon table: each name becomes a tile with the filled SVG
+      var head = table.querySelector('thead');
+      if (head && /アイコン名/.test(head.textContent)) {
+        table.classList.add('dk-icons');
+        table.querySelectorAll('tbody tr').forEach(function (tr) {
+          var td = tr.querySelectorAll('td')[1]; if (!td) { return; }
+          var list = document.createElement('div'); list.className = 'dk-icon-list';
+          td.textContent.split(/[,、\s]+/).filter(Boolean).forEach(function (name) {
+            var tile = document.createElement('a');
+            tile.className = 'dk-icon'; tile.href = BASE + 'assets/icons/filled/' + name + '.svg';
+            tile.target = '_blank'; tile.rel = 'noopener'; tile.title = tile.href;
+            var img = document.createElement('img'); img.src = ASSETS + 'icons/filled/' + name + '.svg'; img.alt = '';
+            var label = document.createElement('span'); label.textContent = name;
+            tile.appendChild(img); tile.appendChild(label); list.appendChild(tile);
+          });
+          td.textContent = ''; td.appendChild(list);
+        });
+        return;
+      }
 
       if (/\/assets\/visuals\//.test(table.innerHTML)) {
         var grid = buildCards(table);

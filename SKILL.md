@@ -21,7 +21,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 このキットの URL を渡されたら、次の順で動く。
 
 1. ロゴは必ず下のファイルを使う。ロゴを文字で打たない、描き直さない、色を変えない。
-2. 製品画面や共通のテクスチャ・背景は「2. ビジュアル素材」に用意している。必要に応じて使う。
+2. 製品画面や共通のテクスチャ・背景は「2. ビジュアル素材」、アイコンは「3. アイコン」に用意している。必要に応じて使う。
 3. カラーとフォントは必要に応じて参考にする。
 4. 詳細が必要なときだけ、末尾の「参照ファイル」の URL を取得する。全部を読む必要はない。
 5. ロゴ画像を配置できない環境では、文字で代用せず、ロゴなしで作り、「ロゴは次の URL のファイルを貼ってください」とファイルの URL を添えてユーザーに伝える。
@@ -72,7 +72,28 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 | https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-chat-ja.png | オーナーアプリのチャット画面（縦） |
 | https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-cashflow-pdf-ja.png | オーナーアプリの収支報告 PDF の表示画面（縦） |
 
-## 3. カラー
+## 3. アイコン
+
+Google の Material Symbols（Apache License 2.0。商用利用可）を使う。コーポレートサイトと同じアイコンの系統。
+
+- ファイル: https://wealthpark-design-team.github.io/design-kit/assets/icons/filled/{名前}.svg （塗りあり）と https://wealthpark-design-team.github.io/design-kit/assets/icons/outlined/{名前}.svg （線のみ）。{名前} は下の表の名前をそのまま入れる
+- 色は黒 #1A1A1A。暗い背景では白にして使う
+- 1 つの制作物の中では、塗りありか線のみのどちらかにそろえると統一感が出る。どちらを標準にするかは未定。コーポレートサイトは塗りあり、太さ 400
+- 下の表にないアイコンは https://fonts.google.com/icons で同じ名前で探せる。Web での読み込み方、スライドでの使い方、各アイコンの用途は references/icons.md にある
+
+| 分類 | アイコン名 |
+|---|---|
+| 操作 | arrow_forward, arrow_back, chevron_right, chevron_left, close, add, remove, search, open_in_new, download |
+| 不動産・会社 | home, apartment, location_city, business, key |
+| お金・数字 | payments, account_balance, savings, receipt_long, trending_up, leaderboard, pie_chart, database |
+| 連絡 | chat, mail, call, notifications, campaign |
+| 書類・日時 | description, picture_as_pdf, calendar_month, schedule |
+| 人 | person, groups, handshake, support_agent, school |
+| 端末 | smartphone, computer, devices |
+| 状態 | info, help, check_circle, warning, verified_user, lock |
+| その他 | language, settings, lightbulb |
+
+## 4. カラー
 
 基調は Black × White。カテゴリごとにアクセント色がある。
 
@@ -97,7 +118,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 - カテゴリが決まっていないときは、コーポレートの Gold が目安
 - ロゴの黒（#000000）と UI の黒（#1A1A1A）は別物。ロゴを #1A1A1A に塗り替えない
 
-## 4. タイポグラフィ
+## 5. タイポグラフィ
 
 フォントの目安。上から順に、使える環境のものを選ぶ。Web、スライド、チラシ、動画で共通。
 
@@ -108,13 +129,13 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 - 本文サイズの目安は Web で 16px。見出し、キャプション、スライドやチラシ用のサイズは未定
 - Web の角丸（3 / 4 / 12 px、ピル型 999px）や線幅（1px、強調 2px）の参考値は assets/tokens.css にある（コーポレートサイトの実装値）
 
-## 5. 表記
+## 6. 表記
 
 - 社名は「WealthPark」（W と P が大文字、間に空白なし）
 - サービス名は正式名で書く: 「WealthPark Business」「WealthParkオーナーアプリ」「WealthPark RealEstate Technologies」
 - 一覧は references/tone.md にある
 
-## 6. 会社・サービスの基本情報
+## 7. 会社・サービスの基本情報
 
 - 会社名: WealthPark株式会社（WealthPark Co., Ltd.）。代表取締役社長 川田 隆太
 - ビジョン: 「選択の自由が当たり前の世界を創る」 / Expand Your Freedom of Choice
@@ -125,7 +146,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 
 詳細は references/company.md にある。
 
-## 7. 次回のために
+## 8. 次回のために
 
 作業を終えたら、次を一度だけ短く伝え、希望があれば実行する。希望がなければ何もしない。
 
@@ -145,6 +166,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 | https://wealthpark-design-team.github.io/design-kit/references/tone.md | 社名・サービス名の表記 |
 | https://wealthpark-design-team.github.io/design-kit/references/company.md | 会社概要、ビジョン（4 言語）とミッション（日英）、サービス、グループ会社 |
 | https://wealthpark-design-team.github.io/design-kit/references/visuals.md | ビジュアル素材の使用例、文字やロゴを置くときの参考、原本の所在 |
+| https://wealthpark-design-team.github.io/design-kit/references/icons.md | アイコンの用途、Web での読み込み方、スライドでの使い方 |
 | https://wealthpark-design-team.github.io/design-kit/assets/tokens.css | CSS 変数 |
 | https://wealthpark-design-team.github.io/design-kit/assets/tokens.json | 同じ値の JSON |
 | https://wealthpark-design-team.github.io/design-kit/assets/starter/index.html | トークンとロゴを組み込んだ最小の HTML テンプレート |
