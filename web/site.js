@@ -82,7 +82,7 @@
         var url = a.href;
         var card = document.createElement('article'); card.className = 'dk-card';
         var fig = document.createElement('a');
-        fig.className = 'dk-card__img' + (/\/texture-/.test(url) ? ' dk-card__img--cover' : '');
+        fig.className = 'dk-card__img' + (/\/texture-/.test(url) ? ' dk-card__img--cover' : '') + (/\/product-phones?-/.test(url) ? ' dk-card__img--tall' : '');
         fig.href = url; fig.target = '_blank'; fig.rel = 'noopener';
         var img = document.createElement('img'); img.src = url; img.alt = '';
         fig.appendChild(img);
@@ -90,7 +90,10 @@
         var row = document.createElement('div'); row.className = 'dk-file';
         var name = document.createElement('a'); name.href = url; name.title = url; name.textContent = fileName(url);
         row.appendChild(name); row.appendChild(copyButton(url, 'URL をコピー', 'コピーしました'));
-        var desc = document.createElement('p'); desc.className = 'dk-card__desc'; desc.textContent = tds[1].textContent.trim();
+        // Tables with a name column (file | name | description) show the name as the card title
+        var named = tds.length >= 3;
+        if (named) { var title = document.createElement('h4'); title.className = 'dk-card__title'; title.textContent = tds[1].textContent.trim(); body.appendChild(title); }
+        var desc = document.createElement('p'); desc.className = 'dk-card__desc'; desc.textContent = tds[named ? 2 : 1].textContent.trim();
         body.appendChild(row); body.appendChild(desc);
         card.appendChild(fig); card.appendChild(body); grid.appendChild(card);
       });

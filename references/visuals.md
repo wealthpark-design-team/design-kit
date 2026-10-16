@@ -1,6 +1,6 @@
 # ビジュアル素材
 
-キービジュアル、テクスチャ、製品画面の使い方。ファイル一覧と一言説明は SKILL.md「2. ビジュアル素材」にある。ここでは使用例と、文字やロゴを置くときの参考を書く。
+キービジュアル、テクスチャ、製品画面の使い方。ファイル一覧と一言説明は SKILL.md「2. ビジュアル素材」の「背景と写真」「製品画面」にある。ここでは使用例と、文字やロゴを置くときの参考を書く。
 
 ## 原則
 
@@ -21,6 +21,8 @@
 | WealthPark Business のバナー・ヘッダー | background-blue-waves.jpg（白文字） | background-white-waves.jpg |
 | WealthPark Business の製品紹介 | product-laptop-cashflow-ja.jpg | product-business-pc-ja.png |
 | オーナーアプリの紹介 | product-phones-3-ja.jpg | product-phone-top-ja.png ほか縦の単体画面 |
+| ログインや本人確認の流れの説明 | product-phone-signin-ja.png、product-phone-login-ja.png、product-phone-2fa-ja.png を順に並べる | |
+| 管理会社とのやりとりの説明 | product-phone-chat-list-ja.png と product-phone-chat-ja.png | product-phone-activity-ja.png |
 | 両製品をまとめて見せる | product-devices-ja.png | product-phones-3-ja.jpg + product-laptop-cashflow-ja.jpg |
 | 会社紹介、カルチャー | artwork-gallery-w-wall.jpg | artwork-steel-structure.jpg |
 | 採用 | artwork-steel-structure.jpg | artwork-gallery-w-wall.jpg |
@@ -41,7 +43,7 @@
 | product-phones-3-ja.jpg | 横 3000×2000 | 上下の余白のみ | 黒 |
 | product-laptop-cashflow-ja.jpg | 横 2400×1465 | 左右の余白のみ | 黒 |
 | product-business-pc-ja.png | 横 1600×977 | 置かない（画面そのもの） | |
-| product-phone-*.png | 縦 790×1600 | 置かない（画面そのもの）。横に文章を添える | |
+| product-phone-*.png | 縦 約 790×1600 | 置かない（画面そのもの）。横に文章を添える | |
 
 ## 原本と追加
 

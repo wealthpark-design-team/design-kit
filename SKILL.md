@@ -49,27 +49,39 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 
 ## 2. ビジュアル素材
 
-公式の制作物で使っている製品画面、テクスチャ、背景。画面内の数値や日付はデモ用で、実データではない。素材の上に文字やロゴを置くときは https://wealthpark-design-team.github.io/design-kit/references/visuals.md を読む。
+公式の制作物で使っている背景、写真、製品画面。素材の上に文字やロゴを置くときは https://wealthpark-design-team.github.io/design-kit/references/visuals.md を読む。
 
-| ファイル | 内容と用途 |
-|---|---|
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/texture-map-gray.jpg | 薄いグレー地に細い線の都市地図。明るい表紙・背景。全面に黒文字を置ける |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/background-white-polygons.jpg | 白〜薄いグレーの多角形の立体パターン（横）。全カテゴリ共通の控えめな背景。黒文字 |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/background-white-waves.jpg | 白〜薄いグレーの流線（横長 3:1）。Web のバナーやヘッダーの背景。黒文字 |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/background-blue-waves.jpg | 鮮やかな青の流線（横長 3:1）。WealthPark Business のバナーやヘッダーの背景。白文字 |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/artwork-gallery-w-wall.jpg | ギャラリーの白い壁に W シンボルの立体と、紺と金の幾何学パネル。手前に人物（横 16:9）。会社紹介・カルチャー向け |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/artwork-steel-structure.jpg | 鉄骨の三角トラスを見上げたモノクロ調の写真（縦）。扉ページや採用向け。白文字に帯を敷く |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/texture-map-black.jpg | 黒地に細い線の都市地図。暗い扉・区切りページ。白文字と白版ロゴを使う |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-devices-ja.png | 白背景にノート PC とスマホ 2 台。製品紹介（横） |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phones-3-ja.jpg | スマホ 3 台にオーナーアプリの画面。アプリ紹介（横） |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-laptop-cashflow-ja.jpg | ノート PC に WealthPark Business の収支画面（横） |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-business-pc-ja.png | WealthPark Business の管理画面（PC、端末の枠なし） |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-top-ja.png | オーナーアプリのトップ画面（iPhone の枠つき、縦） |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-cashflow-ja.png | オーナーアプリの収支グラフ画面（縦） |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-activity-ja.png | オーナーアプリのアクティビティ画面（縦） |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-signin-ja.png | オーナーアプリのサインイン画面（縦） |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-chat-ja.png | オーナーアプリのチャット画面（縦） |
-| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-cashflow-pdf-ja.png | オーナーアプリの収支報告 PDF の表示画面（縦） |
+### 背景と写真
+
+| ファイル | 名前 | 内容と用途 |
+|---|---|---|
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/texture-map-gray.jpg | 都市地図（グレー） | 薄いグレー地に細い線の都市地図。明るい表紙・背景。全面に黒文字を置ける |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/texture-map-black.jpg | 都市地図（黒） | 黒地に細い線の都市地図。暗い扉・区切りページ。白文字と白版ロゴを使う |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/background-white-polygons.jpg | 白の多角形 | 白〜薄いグレーの多角形の立体パターン（横）。全カテゴリ共通の控えめな背景。黒文字 |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/background-white-waves.jpg | 白の流線 | 白〜薄いグレーの流線（横長 3:1）。Web のバナーやヘッダーの背景。黒文字 |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/background-blue-waves.jpg | 青の流線 | 鮮やかな青の流線（横長 3:1）。WealthPark Business のバナーやヘッダーの背景。白文字 |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/artwork-gallery-w-wall.jpg | W シンボルのギャラリー | ギャラリーの白い壁に W シンボルの立体と、紺と金の幾何学パネル。手前に人物（横 16:9）。会社紹介・カルチャー向け |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/artwork-steel-structure.jpg | 鉄骨の構造 | 鉄骨の三角トラスを見上げたモノクロ調の写真（縦）。扉ページや採用向け。白文字に帯を敷く |
+
+### 製品画面
+
+画面内の数値、日付、物件名、人名はデモ用で、実データではない。スマホの画面は iPhone の枠つき（縦、背景は透過）。
+
+| ファイル | 名前 | 内容と用途 |
+|---|---|---|
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-devices-ja.png | PC とスマホ | 白背景にノート PC とスマホ 2 台。両製品をまとめた紹介（横） |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-laptop-cashflow-ja.jpg | Business の収支画面（PC） | ノート PC に WealthPark Business の収支画面（横） |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-business-pc-ja.png | Business の管理画面 | WealthPark Business の管理画面（PC、端末の枠なし） |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phones-3-ja.jpg | オーナーアプリ 3 画面 | スマホ 3 台にオーナーアプリの画面。アプリ紹介（横） |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-top-ja.png | ホーム画面 | オーナーアプリのホーム。今月の収支総額、保有物件の稼働率と収支グラフ |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-cashflow-ja.png | 収支画面 | 物件ごとの月別収支のグラフと内訳 |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-cashflow-pdf-ja.png | 収支報告書画面 | 月次の収支報告書（PDF）の表示と送信 |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-chat-list-ja.png | チャット一覧画面 | 管理会社からの連絡の一覧。未読の件数つき |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-chat-ja.png | チャット画面 | 管理会社とのやりとり。写真と PDF の添付つき |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-activity-ja.png | アクティビティ画面 | 入居申込などの報告と、承諾・不承諾の回答 |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-signin-ja.png | ログイン開始画面 | アプリを開いたときの最初の画面。ロゴとログインボタン |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-login-ja.png | ログイン画面 | メールアドレスとパスワードの入力 |
+| https://wealthpark-design-team.github.io/design-kit/assets/visuals/product-phone-2fa-ja.png | 2 段階認証画面 | 本人確認の認証コードの受け取り方法を選ぶ |
 
 ## 3. アイコン
 
