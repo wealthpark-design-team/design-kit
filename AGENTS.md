@@ -32,7 +32,7 @@ WealthPark の制作物をブランドに合わせるための共通参照先。
 
 ## 施策と根拠
 
-- 改善施策の一覧と状態は `docs/backlog.md`。根拠は `docs/research/README.md`（調査のまとめと原本）。施策を進めたら状態を更新する
+- 改善施策の一覧と状態は `docs/todo.md`。根拠は `docs/research/README.md`（調査のまとめと原本）。施策を進めたら状態を更新する
 - `docs/` と `scripts/` は公開ページに含めない（`_config.yml` の exclude）
 
 ## 確認と公開
