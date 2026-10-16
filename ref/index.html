@@ -1,0 +1,40 @@
+---
+layout: default
+title: 参照ファイル
+permalink: /ref/
+---
+<nav class="dk-doc-nav"><a href="{{ '/' | relative_url }}">← デザインキットに戻る</a></nav>
+<article id="dk-doc" data-dk-defer><p>読み込み中…</p></article>
+<p class="dk-doc-source" id="dk-doc-source" hidden>このページの元のファイル（AI が読む Markdown）: <a id="dk-doc-raw"></a></p>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script>
+/* Human viewer for references/*.md. AI agents read the raw Markdown URL; people get the same text rendered in the kit's layout. */
+(function () {
+  var ALLOWED = /^references\/[a-z-]+\.md$/;
+  var SITE = '{{ "/" | relative_url }}';
+  var PUBLIC = 'https://wealthpark-design-team.github.io/design-kit/';
+  var file = new URLSearchParams(location.search).get('f') || '';
+  var box = document.getElementById('dk-doc');
+  function fail(msg) { box.innerHTML = '<p></p>'; box.firstChild.textContent = msg; }
+  if (!ALLOWED.test(file)) { fail('表示するファイルが指定されていません。デザインキットのページから開いてください。'); return; }
+  fetch(SITE + file).then(function (r) {
+    if (!r.ok) { throw new Error(r.status); }
+    return r.text();
+  }).then(function (md) {
+    box.innerHTML = marked.parse(md, { gfm: true });
+    // Bare URLs were auto-linked by marked; turn them back into text so the kit script labels them
+    box.querySelectorAll('a').forEach(function (a) {
+      var href = a.getAttribute('href'), same = a.textContent === href;
+      try { same = same || a.textContent === decodeURI(href); } catch (e) { /* keep the link */ }
+      if (same) { a.replaceWith(document.createTextNode(a.textContent)); }
+    });
+    var h1 = box.querySelector('h1');
+    if (h1) { document.title = h1.textContent + ' | WealthPark Design Kit'; }
+    var raw = document.getElementById('dk-doc-raw');
+    raw.href = PUBLIC + file; raw.textContent = PUBLIC + file;
+    document.getElementById('dk-doc-source').hidden = false;
+    function run() { if (window.dkEnhance) { window.dkEnhance(box); } }
+    if (window.dkEnhance) { run(); } else { document.addEventListener('DOMContentLoaded', run); }
+  }).catch(function () { fail('ファイルを読み込めませんでした。時間をおいて再度開いてください。'); });
+})();
+</script>
