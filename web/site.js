@@ -12,7 +12,8 @@
     'references/logo.md': 'ロゴの詳細', 'references/visuals.md': 'ビジュアル素材の使い方',
     'references/icons.md': 'アイコンの使い方', 'references/colors.md': 'カラーの詳細',
     'references/typography.md': 'タイポグラフィの詳細', 'references/charts.md': 'グラフの配色',
-    'references/tone.md': '表記の一覧', 'references/company.md': '会社情報の詳細'
+    'references/tone.md': '表記の一覧', 'references/company.md': '会社情報の詳細',
+    'references/skills.md': 'デザインスキルの使い方'
   };
   function viewerUrl(path) { return BASE + 'ref/?f=' + encodeURIComponent(path); }
 

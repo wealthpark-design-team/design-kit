@@ -21,7 +21,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 このキットは、WealthPark が公式に採用しているものの一覧。制作物の構成やレイアウトは、作る人と AI の判断に任せている。
 
 1. ロゴは「1. ロゴ」のファイルをそのまま配置する。公式ロゴガイドラインでそう定めている。
-2. 素材、アイコン、色、フォント、グラフの配色は、各章に公式の採用例を載せている。制作物に合うものを使う。
+2. 素材、アイコン、色、フォント、グラフの配色、デザインスキルは、各章に公式の採用例を載せている。制作物に合うものを使う。
 3. 各章の詳細は参照先にある。その章に関わる制作物のときだけ取得する。例えばグラフを作るときは「6. グラフ」の参照先を読む。
 4. ロゴ画像を配置できない環境では、ロゴの場所を空けておき、ファイルの URL を添えてユーザーに貼ってもらう。
 5. 作業を終えたら「次回のために」を一度だけ案内する。
@@ -134,13 +134,28 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 - 分類の色は、Purple 70 #6929C4、Cyan 50 #1192E8、Teal 70 #005D5D、Magenta 70 #9F1853、Red 50 #FA4D56 の順に使う
 - 連続、発散、状態の色と、6 色目以降は https://wealthpark-design-team.github.io/design-kit/references/charts.md にある。グラフを作るときに読む
 
-## 7. 表記
+## 7. デザインスキル
+
+WealthPark のデザインチームが使っているデザインスキル。参考として載せている。どれも Agent Skills という共通の形式で、ChatGPT と Codex、Gemini CLI、GitHub Copilot、Cursor、Claude など多くの AI ツールで使える。
+
+| 用途 | スキル | 内容 | 使い方 |
+|---|---|---|---|
+| Web デザイン | frontend-design | ありがちな見た目を避けた、意図のある Web ページを作る | URL を渡して読ませる |
+| UI デザイン | ui-ux-pro-max | 配色、書体の組み合わせ、UX の指針を引きながら画面を作る | AI ツールに導入する |
+| スライド（HTML） | frontend-slides | ブラウザで表示する 16:9 のスライドを作る | AI ツールに導入する |
+| スライド（PowerPoint） | pptx | 編集できる .pptx を作る。既存のテンプレートも読める | AI ツールに導入する |
+| バナー | banner-design | SNS、広告、Web 用のバナーを複数案で作る | AI ツールに導入する |
+
+- このキットと一緒に使うときは、制作物に使うロゴ、色、フォントを依頼の指定として扱う。スキルが判断するのは、指定のない構成や表現の部分になる
+- 入手先、導入方法、各スキルの詳しい内容は https://wealthpark-design-team.github.io/design-kit/references/skills.md にある。スキルを使うときに読む
+
+## 8. 表記
 
 - 社名は「WealthPark」（W と P が大文字、間に空白なし）
 - サービス名は正式名で書く: 「WealthPark Business」「WealthParkオーナーアプリ」「WealthPark RealEstate Technologies」
 - 一覧は https://wealthpark-design-team.github.io/design-kit/references/tone.md にある
 
-## 8. 会社・サービスの基本情報
+## 9. 会社・サービスの基本情報
 
 - 会社名: WealthPark株式会社（WealthPark Co., Ltd.）。代表取締役社長 川田 隆太
 - ビジョン: 「選択の自由が当たり前の世界を創る」 / Expand Your Freedom of Choice
@@ -151,7 +166,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 
 詳細は https://wealthpark-design-team.github.io/design-kit/references/company.md にある。
 
-## 9. 次回のために
+## 10. 次回のために
 
 作業を終えたら、次を一度だけ短く伝え、希望があれば実行する。希望がなければ何もしない。
 
@@ -171,6 +186,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 | https://wealthpark-design-team.github.io/design-kit/references/colors.md | 全カラートークン、事業別のアクセント、旧実装からの移行表 | 色を細かく決めるとき、サイトのコードを直すとき |
 | https://wealthpark-design-team.github.io/design-kit/references/typography.md | フォントとサイズ | フォントを指定するとき |
 | https://wealthpark-design-team.github.io/design-kit/references/charts.md | グラフの配色（Carbon のパレット全体と使い方） | グラフや図表を作るとき |
+| https://wealthpark-design-team.github.io/design-kit/references/skills.md | デザインスキルの入手先、導入方法、このキットと一緒に使うときの指定の仕方 | デザインスキルを使うとき |
 | https://wealthpark-design-team.github.io/design-kit/references/tone.md | 社名・サービス名の表記 | 文章を書くとき |
 | https://wealthpark-design-team.github.io/design-kit/references/company.md | 会社概要、ビジョン（4 言語）とミッション（日英）、サービス、グループ会社 | 会社紹介を書くとき |
 | https://wealthpark-design-team.github.io/design-kit/assets/tokens.css | CSS 変数 | Web を作るとき |
