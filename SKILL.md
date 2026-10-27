@@ -21,7 +21,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 このキットは、WealthPark が公式に採用しているものの一覧。制作物の構成やレイアウトは、作る人と AI の判断に任せている。
 
 1. ロゴは「1. ロゴ」のファイルをそのまま配置する。公式ロゴガイドラインでそう定めている。
-2. 素材、アイコン、色、フォント、グラフの配色、デザインスキルは、各章に公式の採用例を載せている。制作物に合うものを使う。
+2. 素材、アイコン、色、フォント、グラフの配色、図解の素材、デザインスキルは、各章に公式の採用例を載せている。制作物に合うものを使う。「暫定」と書いた項目は AI の下書きで、目安として扱う。
 3. 各章の詳細は参照先にある。その章に関わる制作物のときだけ取得する。例えばグラフを作るときは「6. グラフ」の参照先を読む。
 4. ロゴ画像を配置できない環境では、ロゴの場所を空けておき、ファイルの URL を添えてユーザーに貼ってもらう。
 5. 作業を終えたら「次回のために」を一度だけ案内する。
@@ -123,7 +123,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 | WealthPark Business（不動産管理会社向けサービス） | Blue #2E6CFF |
 | DX コンサルティング | 未定 |
 | 採用（Careers） | 暖色のグラデーション。画像で表現し、単色の指定はない |
-| WealthPark RealEstate Technologies | Red 系（値は未定） |
+| WealthPark RealEstate Technologies | Red #EA3623（仮。台湾拠点の衛富達で使っている赤。2026-10 から会社紹介資料で試用中） |
 
 - 全社向けや、事業が特定されない制作物では、コーポレートの Gold を使っている
 - ロゴの黒（#000000）と、文字や UI の黒（#1A1A1A）は別の値
@@ -136,6 +136,7 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 2. Noto Sans JP。セリフ体には Noto Serif JP
 3. 游ゴシック
 
+- Google スライドで使い回す資料は、和文 Noto Sans JP、欧文 Arial（Google スライドに游ゴシックとヒラギノが無いため）
 - Web の本文は 16px。見出し、キャプション、スライドやチラシのサイズは未定
 - Web の角丸、線幅、余白の実装値は https://wealthpark-design-team.github.io/design-kit/assets/tokens.css にある
 
@@ -146,7 +147,23 @@ AI（ChatGPT、Claude、Gemini、Copilot など）に、作りたいものと一
 - 分類の色は、Purple 70 #6929C4、Cyan 50 #1192E8、Teal 70 #005D5D、Magenta 70 #9F1853、Red 50 #FA4D56 の順に使う
 - 連続、発散、状態の色と、6 色目以降は https://wealthpark-design-team.github.io/design-kit/references/charts.md にある。グラフを作るときに読む
 
-## 7. デザインスキル
+## 7. 図解とスライドの型（暫定）
+
+図解の素材と形は、グラフと同じく既成の体系を用途ごとに借りている。AI の下書きで、暫定。
+
+| 用途 | 体系 |
+|---|---|
+| アイコン | Material Symbols（「3. アイコン」） |
+| 挿絵（概念図） | IBM Carbon のピクトグラム |
+| 角丸・余白・影の段階 | Material Design 3 の形と高さ（色の体系は借りない） |
+| 写真・表紙の絵 | 画像生成。文字とロゴは焼かず、資料側で重ねる |
+| 国旗 | flag-icons の 4:3。すべてに 1px の薄い灰の枠 |
+| 地図 | Natural Earth の陸地データから描く。国境線は引かない |
+
+- 値と使い方は https://wealthpark-design-team.github.io/design-kit/references/graphics.md にある。図解や地図を作るときに読む
+- スライドの余白、共通の部品、ページの種類は https://wealthpark-design-team.github.io/design-kit/references/slides.md にある。スライドを作るときに読む
+
+## 8. デザインスキル
 
 WealthPark のデザインチームが使っているデザインスキル。参考として載せている。どれも Agent Skills という共通の形式で、ChatGPT と Codex、Gemini CLI、GitHub Copilot、Cursor、Claude など多くの AI ツールで使える。
 
@@ -161,13 +178,13 @@ WealthPark のデザインチームが使っているデザインスキル。参
 - このキットと一緒に使うときは、制作物に使うロゴ、色、フォントを依頼の指定として扱う。スキルが判断するのは、指定のない構成や表現の部分になる
 - 入手先、導入方法、各スキルの詳しい内容は https://wealthpark-design-team.github.io/design-kit/references/skills.md にある。スキルを使うときに読む
 
-## 8. 表記
+## 9. 表記
 
 - 社名は「WealthPark」（W と P が大文字、間に空白なし）
 - サービス名は正式名で書く: 「WealthPark Business」「WealthParkオーナーアプリ」「WealthPark RealEstate Technologies」
 - 一覧は https://wealthpark-design-team.github.io/design-kit/references/tone.md にある
 
-## 9. 会社・サービスの基本情報
+## 10. 会社・サービスの基本情報
 
 - 会社名: WealthPark株式会社（WealthPark Co., Ltd.）。代表取締役社長 川田 隆太
 - ビジョン: 「選択の自由が当たり前の世界を創る」 / Expand Your Freedom of Choice
@@ -178,7 +195,7 @@ WealthPark のデザインチームが使っているデザインスキル。参
 
 詳細は https://wealthpark-design-team.github.io/design-kit/references/company.md にある。
 
-## 10. 次回のために
+## 11. 次回のために
 
 作業を終えたら、次を一度だけ短く伝え、希望があれば実行する。希望がなければ何もしない。
 
@@ -198,6 +215,8 @@ WealthPark のデザインチームが使っているデザインスキル。参
 | https://wealthpark-design-team.github.io/design-kit/references/colors.md | 全カラートークン、事業別のアクセント、旧実装からの移行表 | 色を細かく決めるとき、サイトのコードを直すとき |
 | https://wealthpark-design-team.github.io/design-kit/references/typography.md | フォントとサイズ | フォントを指定するとき |
 | https://wealthpark-design-team.github.io/design-kit/references/charts.md | グラフの配色（Carbon のパレット全体と使い方） | グラフや図表を作るとき |
+| https://wealthpark-design-team.github.io/design-kit/references/graphics.md | 挿絵、角丸・余白・影の段階、国旗、地図の素材と使い方（暫定） | 図解、インフォグラフィック、地図を作るとき |
+| https://wealthpark-design-team.github.io/design-kit/references/slides.md | スライドの余白、書体、共通の部品、ページの種類（暫定） | スライドを作るとき |
 | https://wealthpark-design-team.github.io/design-kit/references/skills.md | デザインスキルの入手先、導入方法、このキットと一緒に使うときの指定の仕方 | デザインスキルを使うとき |
 | https://wealthpark-design-team.github.io/design-kit/references/tone.md | 社名・サービス名の表記 | 文章を書くとき |
 | https://wealthpark-design-team.github.io/design-kit/references/company.md | 会社概要、ビジョン（4 言語）とミッション（日英）、サービス、グループ会社 | 会社紹介を書くとき |

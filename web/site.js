@@ -13,7 +13,8 @@
     'references/icons.md': 'アイコンの使い方', 'references/colors.md': 'カラーの詳細',
     'references/typography.md': 'タイポグラフィの詳細', 'references/charts.md': 'グラフの配色',
     'references/tone.md': '表記の一覧', 'references/company.md': '会社情報の詳細',
-    'references/skills.md': 'デザインスキルの使い方'
+    'references/skills.md': 'デザインスキルの使い方',
+    'references/graphics.md': '図解の素材と形', 'references/slides.md': 'スライドのページ型'
   };
   function viewerUrl(path) { return BASE + 'ref/?f=' + encodeURIComponent(path); }
 

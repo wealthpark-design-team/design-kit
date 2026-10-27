@@ -12,6 +12,15 @@ Web、スライド、チラシ、動画で共通の目安。サイズの体系�
 
 Web の CSS ではこの順にフォールバックする指定を assets/tokens.css に入れている。
 
+## スライドの書体
+
+| 出力先 | 和文 | 欧文 | 理由 |
+|---|---|---|---|
+| Google スライド（社内で使い回す資料） | Noto Sans JP | Arial | Google スライドには游ゴシックとヒラギノが無い。游ゴシックを指定しても代わりの書体で表示される |
+| PowerPoint だけで使う資料 | 游ゴシック | Arial または游ゴシック | Windows と Mac の Office に入っている |
+
+2026-10-27、WealthPark RealEstate Technologies の会社紹介資料で決めた。1 つの文の中でも、和文の部分と欧文の部分に別の書体を当てる（PowerPoint と Google スライドは文字の範囲ごとに書体を持つ）。
+
 ## サイズ
 
 - Web の本文の目安: 16px、行間 1.7〜1.8

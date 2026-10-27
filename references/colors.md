@@ -22,7 +22,7 @@
 | WealthPark Business | --wp-color-accent-business | #2E6CFF | Blue。不動産管理会社向けサービスの資料・UI |
 | DX コンサルティング | 未定 | | |
 | 採用（Careers） | なし | | 暖色のグラデーションをキービジュアル画像で表現する。単色の指定はない |
-| WealthPark RealEstate Technologies | 未定 | | Red 系と決まっているが値は未確定 |
+| WealthPark RealEstate Technologies | --wp-color-accent-ret | #EA3623 | 仮（2026-10-27）。台湾拠点の衛富達で使っている赤。会社紹介資料で試し、しっくりくれば正式にする |
 
 対象外: WealthPark Investment（終了）、WealthPark Asset Management（このキットでは扱わない）。
 
